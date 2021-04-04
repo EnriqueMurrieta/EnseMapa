@@ -1,0 +1,504 @@
+{
+"numero_de_expresidentes_municipales": "25",
+                            "desde": "1953",
+                            "0": {
+                                "nombre": "Marco Antonio Novelo Osuna",
+                                "partido": {
+                                    "nombre": "PRI",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "2016",
+                                    "fecha": "1 de noviembre de 2016"
+                                },
+                                "termino mandato": {
+                                    "ano": "2019",
+                                    "fecha": "30 de septiembre de 2019"
+                                },
+                                "img": "",
+                                "predecesor": "Mtro. Gilberto Hirata Chico",
+                                "partido predecesor": "PRI",
+                                "sucesor": "Armando Ayala Robles",
+                                "partido sucesor": "MORENA"
+                            },
+                            "1": {
+                                "nombre": "Mtro. Gilberto Hirata Chico",
+                                "partido": {
+                                    "nombre": "PRI",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "2013",
+                                    "fecha": "1 de noviembre de 2013"
+                                },
+                                "termino mandato": {
+                                    "ano": "2016",
+                                    "fecha": "31 de octubre de 2016"
+                                },
+                                "img": "",
+                                "predecesor": "C.P. Enrique Pelayo Torres",
+                                "partido predecesor": "PRI",
+                                "sucesor": "Marco Antonio Novelo Osuna",
+                                "partido sucesor": "PRI"
+                            },
+                            "2": {
+                                "nombre": "C.P. Enrique Pelayo Torres",
+                                "partido": {
+                                    "nombre": "PRI",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "2010",
+                                    "fecha": "1 de noviembre de 2010"
+                                },
+                                "termino mandato": {
+                                    "ano": "2013",
+                                    "fecha": "31 de octubre de 2013"
+                                },
+                                "img": "",
+                                "predecesor": "Lic. Pablo Alejo López Nuñez",
+                                "partido predecesor": "PAN",
+                                "sucesor": "Mtro. Gilberto Hirata Chico",
+                                "partido sucesor": "PRI"
+                            },
+                            "3": {
+                                "nombre": "Lic. Pablo Alejo López Nuñez",
+                                "partido": {
+                                    "nombre": "PAN",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "2007",
+                                    "fecha": "1 de noviembre de 2007"
+                                },
+                                "termino mandato": {
+                                    "ano": "2010",
+                                    "fecha": "31 de octubre de 2010"
+                                },
+                                "img": "",
+                                "predecesor": "Quim. César Mancillas Amador",
+                                "partido predecesor": "PAN",
+                                "sucesor": "C.P. Enrique Pelayo Torres",
+                                "partido sucesor": "PRI"
+                            },
+                            "4": {
+                                "nombre": "Quim. César Mancillas Amador",
+                                "partido": {
+                                    "nombre": "PAN",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "2004",
+                                    "fecha": "1 de noviembre de 2004"
+                                },
+                                "termino mandato": {
+                                    "ano": "2007",
+                                    "fecha": "31 de octubre de 2007"
+                                },
+                                "img": "",
+                                "predecesor": "Dr. Jorge Antonio Catalán Sosa",
+                                "partido predecesor": "",
+                                "sucesor": "Lic. Pablo Alejo López Nuñez",
+                                "partido sucesor": ""
+                            },
+                            "5": {
+                                "nombre": "Dr. Jorge Antonio Catalán Sosa",
+                                "partido": {
+                                    "nombre": "PAN",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "2001",
+                                    "fecha": "1 de noviembre de 2001"
+                                },
+                                "termino mandato": {
+                                    "ano": "2004",
+                                    "fecha": "31 de octubre de 2004"
+                                },
+                                "img": "",
+                                "predecesor": "Ricardo Arjona Goldbaum",
+                                "partido predecesor": "",
+                                "sucesor": "Quim. César Mancillas Amador",
+                                "partido sucesor": ""
+                            },
+                            "6": {
+                                "nombre": "Ricardo Arjona Goldbaum (Interino)",
+                                "partido": {
+                                    "nombre": "PRI",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "2001",
+                                    "fecha": "2001"
+                                },
+                                "termino mandato": {
+                                    "ano": "2001",
+                                    "fecha": "31 de octubre de 2001"
+                                },
+                                "img": "",
+                                "predecesor": "Dr. Daniel Quintero Peña",
+                                "partido predecesor": "",
+                                "sucesor": "Dr. Jorge Antonio Catalán Sosa",
+                                "partido sucesor": ""
+                            },
+                            "7": {
+                                "nombre": "Dr. Daniel Quintero Peña",
+                                "partido": {
+                                    "nombre": "PRI",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1998",
+                                    "fecha": "1 de noviembre de 1998"
+                                },
+                                "termino mandato": {
+                                    "ano": "2001",
+                                    "fecha": "2001"
+                                },
+                                "img": "",
+                                "predecesor": "C.P. Manuel Montenegro Espinoza",
+                                "partido predecesor": "",
+                                "sucesor": "Ricardo Arjona Goldbaum",
+                                "partido sucesor": ""
+                            },
+                            "8": {
+                                "nombre": "C.P. Manuel Montenegro Espinoza",
+                                "partido": {
+                                    "nombre": "PAN",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1995",
+                                    "fecha": "1 de noviembre de 1995"
+                                },
+                                "termino mandato": {
+                                    "ano": "1998",
+                                    "fecha": "31 de octubre de 1998"
+                                },
+                                "img": "",
+                                "predecesor": "C.P. Óscar Sánchez del Palacio",
+                                "partido predecesor": "",
+                                "sucesor": "Dr. Daniel Quintero Peña",
+                                "partido sucesor": ""
+                            },
+                            "9": {
+                                "nombre": "C.P. Óscar Sánchez del Palacio",
+                                "partido": {
+                                    "nombre": "PAN",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1992",
+                                    "fecha": "1 de noviembre de 1992"
+                                },
+                                "termino mandato": {
+                                    "ano": "1995",
+                                    "fecha": "31 de octubre de 1995"
+                                },
+                                "img": "",
+                                "predecesor": "Quím. Jesús del Palacio Lafontaine",
+                                "partido predecesor": "",
+                                "sucesor": "C.P. Manuel Montenegro Espinoza",
+                                "partido sucesor": ""
+                            },
+                            "10": {
+                                "nombre": "Quím. Jesús del Palacio Lafontaine",
+                                "partido": {
+                                    "nombre": "PAN",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1989",
+                                    "fecha": "1 de noviembre de 1989"
+                                },
+                                "termino mandato": {
+                                    "ano": "1992",
+                                    "fecha": "31 de octubre de 1992"
+                                },
+                                "img": "",
+                                "predecesor": "C. Enrique Chapela",
+                                "partido predecesor": "",
+                                "sucesor": "C.P. Óscar Sánchez del Palacio",
+                                "partido sucesor": ""
+                            },
+                            "11": {
+                                "nombre": "C. Enrique Chapela (Interino)",
+                                "partido": {
+                                    "nombre": "PAN",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1989",
+                                    "fecha": "20 de abril de 1989"
+                                },
+                                "termino mandato": {
+                                    "ano": "1989",
+                                    "fecha": "31 de octubre de 1989"
+                                },
+                                "img": "",
+                                "predecesor": "Lic. Ernesto Ruffo Appel",
+                                "partido predecesor": "",
+                                "sucesor": "Quím. Jesús del Palacio Lafontaine",
+                                "partido sucesor": ""
+                            },
+                            "12": {
+                                "nombre": "Lic. Ernesto Ruffo Appel",
+                                "partido": {
+                                    "nombre": "PAN",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1986",
+                                    "fecha": "1 de noviembre de 1986"
+                                },
+                                "termino mandato": {
+                                    "ano": "1989",
+                                    "fecha": "19 de abril de 1989"
+                                },
+                                "img": "",
+                                "predecesor": "C. David Ojeda Ochoa",
+                                "partido predecesor": "",
+                                "sucesor": "C. Enrique Chapela",
+                                "partido sucesor": ""
+                            },
+                            "13": {
+                                "nombre": "C. David Ojeda Ochoa",
+                                "partido": {
+                                    "nombre": "PST",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1983",
+                                    "fecha": "1 de noviembre de 1983"
+                                },
+                                "termino mandato": {
+                                    "ano": "1986",
+                                    "fecha": "31 de octubre de 1986"
+                                },
+                                "img": "",
+                                "predecesor": "C. Raúl Ramírez Funcke",
+                                "partido predecesor": "",
+                                "sucesor": "Lic. Ernesto Ruffo Appel",
+                                "partido sucesor": ""
+                            },
+                            "14": {
+                                "nombre": "C. Raúl Ramírez Funcke",
+                                "partido": {
+                                    "nombre": "PRI",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1980",
+                                    "fecha": "1 de noviembre de 1980"
+                                },
+                                "termino mandato": {
+                                    "ano": "1983",
+                                    "fecha": "31 de octubre de 1983"
+                                },
+                                "img": "",
+                                "predecesor": "C. Luis González Ruiz",
+                                "partido predecesor": "",
+                                "sucesor": "C. David Ojeda Ochoa",
+                                "partido sucesor": ""
+                            },
+                            "15": {
+                                "nombre": "C. Luis González Ruiz",
+                                "partido": {
+                                    "nombre": "PRI",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1977",
+                                    "fecha": "1 de noviembre de 1977"
+                                },
+                                "termino mandato": {
+                                    "ano": "1980",
+                                    "fecha": "31 de octubre de 1980"
+                                },
+                                "img": "",
+                                "predecesor": "C. Jorge Moreno Bonet",
+                                "partido predecesor": "",
+                                "sucesor": "C. Raúl Ramírez Funcke",
+                                "partido sucesor": ""
+                            },
+                            "16": {
+                                "nombre": "C. Jorge Moreno Bonet",
+                                "partido": {
+                                    "nombre": "PRI",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1974",
+                                    "fecha": "1 de noviembre de 1974"
+                                },
+                                "termino mandato": {
+                                    "ano": "1977",
+                                    "fecha": "31 de octubre de 1977"
+                                },
+                                "img": "",
+                                "predecesor": "Lic. Octavio Pérez Pazuengo",
+                                "partido predecesor": "",
+                                "sucesor": "C. Luis González Ruiz",
+                                "partido sucesor": ""
+                            },
+                            "17": {
+                                "nombre": "Lic. Octavio Pérez Pazuengo",
+                                "partido": {
+                                    "nombre": "PRI",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1971",
+                                    "fecha": "1 de noviembre de 1971"
+                                },
+                                "termino mandato": {
+                                    "ano": "1974",
+                                    "fecha": "31 de octubre de 1974"
+                                },
+                                "img": "",
+                                "predecesor": "Lic. Guilebaldo Silva Cota",
+                                "partido predecesor": "",
+                                "sucesor": "C. Jorge Moreno Bonet",
+                                "partido sucesor": ""
+                            },
+                            "18": {
+                                "nombre": "Lic. Guilebaldo Silva Cota",
+                                "partido": {
+                                    "nombre": "PRI",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1968",
+                                    "fecha": "1 de noviembre de 1968"
+                                },
+                                "termino mandato": {
+                                    "ano": "1971",
+                                    "fecha": "31 de octubre de 1971"
+                                },
+                                "img": "",
+                                "predecesor": "Prof. Jorge Olguín Hermida",
+                                "partido predecesor": "",
+                                "sucesor": "Lic. Octavio Pérez Pazuengo",
+                                "partido sucesor": ""
+                            },
+                            "19": {
+                                "nombre": "Prof. Jorge Olguín Hermida",
+                                "partido": {
+                                    "nombre": "PRI",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1965",
+                                    "fecha": "1 de noviembre de 1965"
+                                },
+                                "termino mandato": {
+                                    "ano": "1968",
+                                    "fecha": "31 de octubre de 1968"
+                                },
+                                "img": "",
+                                "predecesor": "Adolfo Ramírez Méndez",
+                                "partido predecesor": "",
+                                "sucesor": "Lic. Guilebaldo Silva Cota",
+                                "partido sucesor": ""
+                            },
+                            "20": {
+                                "nombre": "Adolfo Ramírez Méndez",
+                                "partido": {
+                                    "nombre": "PRI",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1962",
+                                    "fecha": "1 de noviembre de 1962"
+                                },
+                                "termino mandato": {
+                                    "ano": "1965",
+                                    "fecha": "31 de octubre de 1965"
+                                },
+                                "img": "",
+                                "predecesor": "Elpidio Berlanga de León",
+                                "partido predecesor": "",
+                                "sucesor": "Prof. Jorge Olguín Hermida",
+                                "partido sucesor": ""
+                            },
+                            "21": {
+                                "nombre": "Elpidio Berlanga de León",
+                                "partido": {
+                                    "nombre": "PRI",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1959",
+                                    "fecha": "1 de noviembre de 1959"
+                                },
+                                "termino mandato": {
+                                    "ano": "1962",
+                                    "fecha": "31 de octubre de 1962"
+                                },
+                                "img": "",
+                                "predecesor": "Santos B. Cota",
+                                "partido predecesor": "",
+                                "sucesor": "Adolfo Ramírez Méndez",
+                                "partido sucesor": ""
+                            },
+                            "22": {
+                                "nombre": "Santos B. Cota",
+                                "partido": {
+                                    "nombre": "PRI",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1956",
+                                    "fecha": "1 de noviembre de 1956"
+                                },
+                                "termino mandato": {
+                                    "ano": "1959",
+                                    "fecha": "31 de octubre de 1959"
+                                },
+                                "img": "",
+                                "predecesor": "Víctor Salazar",
+                                "partido predecesor": "",
+                                "sucesor": "Elpidio Berlanga de León",
+                                "partido sucesor": ""
+                            },
+                            "23": {
+                                "nombre": "Víctor Salazar (Interino)",
+                                "partido": {
+                                    "nombre": "PRI",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1956",
+                                    "fecha": "1956"
+                                },
+                                "termino mandato": {
+                                    "ano": "1956",
+                                    "fecha": "30 de noviembre de 1956"
+                                },
+                                "img": "",
+                                "predecesor": "David Ojeda Ochoa",
+                                "partido predecesor": "",
+                                "sucesor": "Santos B. Cota",
+                                "partido sucesor": ""
+                            },
+                            "24": {
+                                "nombre": "David Ojeda Ochoa",
+                                "partido": {
+                                    "nombre": "PRI",
+                                    "desde": ""
+                                },
+                                "inicio mandato": {
+                                    "ano": "1953",
+                                    "fecha": "1 de diciembre de 1953"
+                                },
+                                "termino mandato": {
+                                    "ano": "1956",
+                                    "fecha": "1956"
+                                },
+                                "img": "",
+                                "predecesor": "",
+                                "partido predecesor": "",
+                                "sucesor": "Víctor Salazar",
+                                "partido sucesor": ""
+                            }
+                        }

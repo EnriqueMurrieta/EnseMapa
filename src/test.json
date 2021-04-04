@@ -1,0 +1,42 @@
+[
+    {
+        "nombre": "Marco Antonio Novelo Osuna",
+        "partido": {
+            "nombre": "PRI",
+            "desde": ""
+        },
+        "inicio mandato": {
+            "ano": "2016",
+            "fecha": "1 de noviembre de 2016"
+        },
+        "termino mandato": {
+            "ano": "2019",
+            "fecha": "30 de septiembre de 2019"
+        },
+        "img": "",
+        "predecesor": "Mtro. Gilberto Hirata Chico",
+        "partido predecesor": "PRI",
+        "sucesor": "Armando Ayala Robles",
+        "partido sucesor": "MORENA"
+    },
+    {
+        "nombre": "Mtro. Gilberto Hirata Chico",
+        "partido": {
+            "nombre": "PRI",
+            "desde": ""
+        },
+        "inicio mandato": {
+            "ano": "2013",
+            "fecha": "1 de noviembre de 2013"
+        },
+        "termino mandato": {
+            "ano": "2016",
+            "fecha": "31 de octubre de 2016"
+        },
+        "img": "",
+        "predecesor": "C.P. Enrique Pelayo Torres",
+        "partido predecesor": "PRI",
+        "sucesor": "Marco Antonio Novelo Osuna",
+        "partido sucesor": "PRI"
+    }
+]
