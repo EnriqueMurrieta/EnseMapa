@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, StatusBar, Text, View, Image } from 'react-native';
+import { StyleSheet, StatusBar, Text, View, Image, TouchableOpacity } from 'react-native';
 import db from '../src/data.json';
 
 export default class Header extends Component {
@@ -21,11 +21,13 @@ export default class Header extends Component {
                         source= {require('../images/bc/morena.png')}
                     />
                     <Text style={styles.text}>({db['baja california'].gobernador["inicio mandato"].ano}-{db['baja california'].gobernador["termino mandato"].ano})</Text>
+                    <TouchableOpacity>
                     <Image 
                         style={styles.image}
                         source= {require('../images/bc/JaimeBonilla.png')}
                     />
                     <Text style={styles.text}>{db["baja california"].gobernador.nombre}</Text>
+                    </TouchableOpacity>
                 </View>
                 <View>
                     <Text style={styles.subtitle}>Históricamente</Text>
@@ -117,7 +119,8 @@ const styles = StyleSheet.create({
         alignSelf: 'center',
         width: 100,
         marginTop: 20,
-        height: 100
+        height: 100,
+        borderRadius: 50
     },
     imageBebe: {
         width: 65,

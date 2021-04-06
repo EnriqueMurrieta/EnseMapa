@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, SafeAreaView, ScrollView, StatusBar, Image, FlatList } from 'react-native';
+import { StyleSheet, Text, View, SafeAreaView, ScrollView, StatusBar, Image, FlatList, TouchableOpacity } from 'react-native';
 import db from '../src/data.json';
-import Header from './Header'
+import Header from './Header';
 
-const data = db["baja california"]["presidencia municipal"].municipios[0].alcaldes["ex presidentes municipales"];
 const ex = db["baja california"].gobernador["ex gobernadores"];
 
 const renderItem = ({ item }) => {
-        if (item.partido.nombre == 'PRI'){
-            return(
-                <View style={styles.list}>
+    const press = () => {
+        console.log(item.nombre);
+    }
+    if (item.partido.nombre == 'PRI'){
+        return(
+            <View style={styles.list}>
+                <TouchableOpacity onPress={press}>
                     <Image 
                         style={styles.imageBebe2}
                         source= {require('../images/bc/pri.png')} 
@@ -20,11 +23,13 @@ const renderItem = ({ item }) => {
                         source= {{uri: item.img}} 
                     />
                     <Text style={styles.text}>{item.nombre}</Text>
-                </View>
-            );
-        } else if (item.partido.nombre == 'PAN'){
-            return(
-                <View style={styles.list}>
+                </TouchableOpacity>
+            </View>
+        );
+    } else if (item.partido.nombre == 'PAN'){
+        return(
+            <View style={styles.list}>
+                <TouchableOpacity onPress={press}>
                     <Image 
                         style={styles.imageBebe2}
                         source= {require('../images/bc/pan.png')} 
@@ -35,11 +40,13 @@ const renderItem = ({ item }) => {
                         source= {{uri: item.img}} 
                     />
                     <Text style={styles.text}>{item.nombre}</Text>
-                </View>
-            );
-        } else if (item.partido.nombre == 'MORENA'){
-            return(
-                <View style={styles.list}>
+                </TouchableOpacity>
+            </View>
+        );
+    } else if (item.partido.nombre == 'MORENA'){
+        return(
+            <View style={styles.list}>
+                    <TouchableOpacity onPress={press}>
                     <Image 
                         style={styles.imageBebe2}
                         source= {require('../images/bc/morena.png')} 
@@ -50,24 +57,10 @@ const renderItem = ({ item }) => {
                         source= {{uri: item.img}} 
                     />
                     <Text style={styles.text}>{item.nombre}</Text>
-                </View>
-            );
-        } else if (item.partido.nombre == 'PST'){
-            return(
-                <View style={styles.list}>
-                    <Image 
-                        style={styles.imageBebe2}
-                        source= {require('../images/pst.png')} 
-                    />
-                    <Text style={styles.text}>{item["inicio mandato"].ano}-{item["termino mandato"].ano}</Text>
-                    <Image 
-                        style={styles.image2}
-                        source= {{uri: item.img}} 
-                    />
-                    <Text style={styles.text}>{item.nombre}</Text>
-                </View>
-            );
-        }
+                </TouchableOpacity>
+            </View>
+        );
+    } 
 }
 
 /* source= {require('../images/Escudo.png')} 
@@ -86,7 +79,7 @@ export default class Content extends Component {
                     style={styles.scrollView}
                     numColumns='2'
                     columnWrapperStyle={{justifyContent: 'space-between'}}
-                    data={data}
+                    data={ex}
                     renderItem={renderItem}
                     keyExtractor={(item, index) => index.toString()}
                 />
@@ -150,13 +143,15 @@ const styles = StyleSheet.create({
     image2: {
         alignSelf: 'center',
         width: 75,
-        height: 75
+        height: 75,
+        borderRadius: 37.5
     },
     imageBebe: {
         width: 75,
         height: 75
     },
     imageBebe2: {
+        marginTop: 5,
         width: 50,
         height: 50,
         alignSelf: 'center'
