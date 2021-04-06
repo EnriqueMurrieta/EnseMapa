@@ -15,9 +15,6 @@ source= {{uri: item.partido.img}} */
 export default class Content extends Component { 
     render() {
         renderItem = ({ item }) => {
-            const press = () => {
-                console.log(item.nombre);
-            }
             if (item.partido.nombre == 'PRI'){
                 return(
                     <View style={styles.list}>
@@ -76,7 +73,7 @@ export default class Content extends Component {
                 <FlatList
                     ListHeaderComponent={
                         <>
-                            <Header/>
+                            <Header navigation={this.props.navigation}/>
                         </>
                     }
                     style={styles.scrollView}

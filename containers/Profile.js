@@ -2,11 +2,21 @@ import { NavigationContainer } from '@react-navigation/native';
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, SafeAreaView, ScrollView, StatusBar, Image, FlatList, TouchableOpacity } from 'react-native';
 
-/*
-<Text>{data.nombre}</Text>
-*/
+const press = () => {
+    return (
+        <View>
+            <Text>Sup, dude</Text>
+        </View>
+    );
+}
 
 export default class Profile extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+          show: true
+        };
+    }
     render() {
         const { data } = this.props.route.params;
         return (
@@ -26,6 +36,38 @@ export default class Profile extends Component {
                     />
                     <Text style={styles.text}>{data.nombre}</Text>
                 </View>
+                <View style={styles.container2}>
+                    <View style={styles.contained2}>
+                        <TouchableOpacity>
+                            <Text style={styles.subtitle3}>Predecesor</Text>
+                            <Image 
+                                style={styles.image2}
+                                source= {{uri: data["partido predecesor"].img}}
+                            />
+                            <Text style={styles.text}>{data.predecesor}</Text>
+                        </TouchableOpacity>
+                    </View>
+                    <View style={styles.contained2}>
+                        <TouchableOpacity>
+                            <Text style={styles.subtitle3}>Sucesor</Text>
+                            <Image 
+                                style={styles.image2}
+                                source= {{uri: data["partido sucesor"].img}}
+                            />
+                            <Text style={styles.text}>{data.sucesor}</Text>
+                        </TouchableOpacity>
+                    </View>
+                </View>
+                <View>
+                    <TouchableOpacity onPress={() => this.setState({ show: !this.state.show })}>
+                        <Text style={styles.subtitle2}>Detalles</Text>
+                    </TouchableOpacity>
+                </View>
+                {this.state.show ? (
+                    <View>
+                        <Text>Sup, dude</Text>
+                    </View>
+                ) : null }
             </View>
         );
     }
@@ -40,6 +82,19 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         width: '100%',
         paddingTop: StatusBar.currentHeight,
+    },
+    container2: {
+        /*flex: 2,*/
+        marginTop: 45,
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'space-between',
+        alignItems: 'flex-start' // if you want to fill rows left to right
+    },
+    contained2: {
+        width: '48%',
+        backgroundColor: '#d3d3d3',
+        alignItems: 'center'
     },
     scrollView: {
         flex: 1,
@@ -65,8 +120,15 @@ const styles = StyleSheet.create({
         padding: 10,
         alignSelf: 'center'
     },
+    subtitle3: {
+        fontWeight: 'bold',
+        fontSize: 20,
+        padding: 10,
+        alignSelf: 'center'
+    },
     text: {
         alignSelf: 'center',
+        textAlign: 'center',
         fontSize: 20
     },
     textBebe: {
@@ -91,6 +153,13 @@ const styles = StyleSheet.create({
         alignSelf: 'center',
         width: 100,
         marginTop: 20,
+        height: 100,
+        borderRadius: 50
+    },
+    image2: {
+        alignSelf: 'center',
+        width: 100,
+        marginBottom: 10,
         height: 100,
         borderRadius: 50
     },
