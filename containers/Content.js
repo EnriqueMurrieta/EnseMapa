@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { StyleSheet, Text, View, SafeAreaView, ScrollView, StatusBar, Image, FlatList, TouchableOpacity } from 'react-native';
 import db from '../src/data.json';
 import Header from './Header';
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
 
 const ex = db["baja california"].gobernador["ex gobernadores"];
 

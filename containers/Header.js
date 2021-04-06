@@ -4,6 +4,7 @@ import db from '../src/data.json';
 
 export default class Header extends Component {
     render() {
+        const info = db["baja california"].gobernador; 
         return (
             <View style={styles.background}>
                 <View>
@@ -21,7 +22,7 @@ export default class Header extends Component {
                         source= {require('../images/bc/morena.png')}
                     />
                     <Text style={styles.text}>({db['baja california'].gobernador["inicio mandato"].ano}-{db['baja california'].gobernador["termino mandato"].ano})</Text>
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={() => this.props.navigation.navigate('Profile', { data: info })}>
                     <Image 
                         style={styles.image}
                         source= {require('../images/bc/JaimeBonilla.png')}

@@ -6,6 +6,7 @@ import Profile from './containers/Profile';
 import Test from './tests/test';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
+import Header from './containers/Header';
 
 const Stack = createStackNavigator();
 
@@ -23,6 +24,10 @@ export default function App() {
           name="Profile"
           component={Profile}
           options={{ title: 'Perfil' }}
+        />
+        <Stack.Screen
+          name="Header"
+          component={Header}
         />
       </Stack.Navigator>
     </NavigationContainer>
