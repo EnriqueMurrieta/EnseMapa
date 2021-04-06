@@ -23,7 +23,7 @@ export default class Content extends Component {
             if (item.partido.nombre == 'PRI'){
                 return(
                     <View style={styles.list}>
-                        <TouchableOpacity onPress={press}>
+                        <TouchableOpacity onPress={() => this.props.navigation.navigate('Profile', { data: item })}>
                             <Image 
                                 style={styles.imageBebe2}
                                 source= {require('../images/bc/pri.png')} 
@@ -57,7 +57,7 @@ export default class Content extends Component {
             } else if (item.partido.nombre == 'MORENA'){
                 return(
                     <View style={styles.list}>
-                            <TouchableOpacity onPress={press}>
+                            <TouchableOpacity onPress={() => this.props.navigation.navigate('Profile', { data: item })}>
                             <Image 
                                 style={styles.imageBebe2}
                                 source= {require('../images/bc/morena.png')} 
