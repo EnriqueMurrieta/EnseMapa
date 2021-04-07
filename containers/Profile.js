@@ -48,19 +48,21 @@ export default class Profile extends Component {
                         </TouchableOpacity>
                     </View>
                     <View style={styles.contained2}>
-                        <TouchableOpacity>
-                            <Text style={styles.subtitle3}>Sucesor</Text>
-                            <Image 
-                                style={styles.image2}
-                                source= {{uri: data["partido sucesor"].img}}
-                            />
-                            <Text style={styles.text}>{data.sucesor}</Text>
-                        </TouchableOpacity>
+                        {data["partido sucesor"] ? (
+                            <TouchableOpacity>
+                                <Text style={styles.subtitle3}>Sucesor</Text>
+                                <Image 
+                                    style={styles.image2}
+                                    source= {{uri: data["partido sucesor"].img}}
+                                />
+                                <Text style={styles.text}>{data.sucesor}</Text>
+                            </TouchableOpacity>
+                        ) : null }
                     </View>
                 </View>
                 <View>
                     <TouchableOpacity onPress={() => this.setState({ show: !this.state.show })}>
-                        <Text style={styles.subtitle2}>Detalles</Text>
+                        <Text style={styles.subtitle2}>Mostrar detalles</Text>
                     </TouchableOpacity>
                 </View>
                 {this.state.show ? (
