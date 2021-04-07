@@ -29,6 +29,13 @@ export default class Profile extends Component {
     */
     render() {
         dang = ({ item }) => {
+            fleco = ({ item }) => {
+                return (
+                    <View>
+                        <Text>{item.cargo}</Text>
+                    </View>
+                );
+            }
             return (
                 <View>
                     <View>
@@ -42,7 +49,16 @@ export default class Profile extends Component {
                                 <Text style={styles.text}>Experiencia publica</Text>
                             </TouchableOpacity>
                             {this.state.showExp ? 
-                                <Text>Que tranza perro</Text>
+                                <SafeAreaView style={styles.container}>
+                                    <FlatList
+                                        style={styles.scrollView}
+                                        /*numColumns='2'
+                                        columnWrapperStyle={{justifyContent: 'space-between'}}*/
+                                        data={item["experiencia publica"]}
+                                        renderItem={fleco}
+                                        keyExtractor={(item, index) => index.toString()}
+                                    />
+                                </SafeAreaView>
                             : null }
                             <Text style={styles.text}>Nacimiento</Text>
                             {item["numero de partidos"] !== 0 ? 
@@ -74,7 +90,7 @@ export default class Profile extends Component {
                     renderItem={dang}
                     keyExtractor={(item, index) => index.toString()}
                 />
-        </SafeAreaView>
+            </SafeAreaView>
         );
     }
 }
