@@ -2,6 +2,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, SafeAreaView, ScrollView, StatusBar, Image, FlatList, TouchableOpacity } from 'react-native';
 import ProfileHeader from './ProfileHeader';
+import { AntDesign } from '@expo/vector-icons';
 
 const press = () => {
     return (
@@ -33,15 +34,32 @@ export default class Profile extends Component {
         detalles = ({ item }) => {
             experiencia = ({ item }) => {
                 return (
-                    <View>
-                        <Text>{item.cargo}</Text>
+                    <View >
+                        <View style={styles.detailsContent}>
+                            <Text style={{fontWeight: "bold"}}>{item.cargo}</Text>
+                            <Text>{item.por}</Text>
+                            <Text>{item["inicio mandato"].fecha} - {item["termino mandato"].fecha}</Text>
+                        </View>
+                        <View style={styles.detailsSubContent}>
+                            <View>
+                                <Text>{item.predecesor}</Text>
+                                <Text style={{fontStyle: "italic"}}>(Predecesor)</Text>
+                            </View>
+                            <View>
+                                <Text>{item.sucesor}</Text>
+                                <Text style={{fontStyle: "italic"}}>(Sucesor)</Text>
+                            </View>
+                        </View>
                     </View>
                 );
             },
             partidos = ({ item }) => {
                 return (
                     <View>
-                        <Text>{item.partido}</Text>
+                        <View style={styles.detailsContentEx}>
+                            <Text style={{fontWeight: "bold"}}>{item.partido}</Text>
+                            <Text>{item.inicio.fecha} - {item.termino.fecha}</Text>
+                        </View>
                     </View>
                 );
             }
@@ -61,7 +79,10 @@ export default class Profile extends Component {
                     </View>
                     {this.state.showDetails ? (
                         <View>
-                            <TouchableOpacity onPress={() => this.setState({ showExp: !this.state.showExp })}>
+                            <TouchableOpacity style={styles.detailsList} onPress={() => this.setState({ showExp: !this.state.showExp })}>
+                                <View style={styles.icon}>
+                                    <AntDesign name="bars" size={20} color="black" />
+                                </View>
                                 <Text style={styles.text}>Experiencia publica</Text>
                             </TouchableOpacity>
                             {this.state.showExp ? 
@@ -77,10 +98,12 @@ export default class Profile extends Component {
                                     />
                                 </SafeAreaView>
                             : null }
-                            <Text style={styles.text}>Nacimiento</Text>
-                            {item["numero de partidos"] !== 0 ? 
+                            {item["numero de ex partidos"] != 0 ? 
                                 <View>
-                                    <TouchableOpacity onPress={() => this.setState({ showPartidos: !this.state.showPartidos })}>
+                                    <TouchableOpacity style={styles.detailsList} onPress={() => this.setState({ showPartidos: !this.state.showPartidos })}>
+                                        <View style={styles.icon}>
+                                            <AntDesign name="bars" size={20} color="black" />
+                                        </View>
                                         <Text style={styles.text}>Ex partidos</Text>
                                     </TouchableOpacity>
                                     {this.state.showPartidos ? 
@@ -99,7 +122,10 @@ export default class Profile extends Component {
                                 </View>
                             : null }
                             <View>
-                                <TouchableOpacity onPress={() => this.setState({ showEdu: !this.state.showEdu })}>
+                                <TouchableOpacity style={styles.detailsList} onPress={() => this.setState({ showEdu: !this.state.showEdu })}>
+                                    <View style={styles.icon}>
+                                        <AntDesign name="bars" size={20} color="black" />
+                                    </View>
                                     <Text style={styles.text}>Educacion</Text>
                                 </TouchableOpacity>
                                 {this.state.showEdu ? 
@@ -116,6 +142,7 @@ export default class Profile extends Component {
                                     </SafeAreaView>
                                 : null }
                             </View>
+                            <Text style={styles.text}>Nacimiento</Text>
                         </View>
                     ) : null }
                 </View>
@@ -166,6 +193,37 @@ const styles = StyleSheet.create({
         backgroundColor: '#d3d3d3',
         alignItems: 'center'
     },
+    detailsList: {
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        alignItems: 'flex-start',
+        padding: 20
+    },
+    detailsContent: {
+        textAlign: 'center',
+        alignItems: 'center'
+    },
+    detailsContentEx: {
+        textAlign: 'center',
+        alignItems: 'center',
+        marginBottom: 20
+    },
+    detailsSubContent: {
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        /*alignItems: 'flex-start',
+        alignSelf: 'flex-start',*/
+        marginLeft: 10,
+        marginTop: 5,
+        marginRight: 10,
+        justifyContent: 'space-between',
+        marginBottom: 20
+    },
+    icon: {
+        marginTop: 3,
+        marginLeft: 10,
+        marginRight: 25
+    },
     scrollView: {
         flex: 1,
         width: '100%',
@@ -197,9 +255,9 @@ const styles = StyleSheet.create({
         alignSelf: 'center'
     },
     text: {
-        alignSelf: 'center',
-        textAlign: 'center',
-        fontSize: 20
+        alignSelf: 'auto',
+        textAlign: 'left',
+        fontSize: 20,
     },
     textBebe: {
         flex: .5,
