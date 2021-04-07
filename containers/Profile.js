@@ -15,7 +15,8 @@ export default class Profile extends Component {
     constructor(props) {
         super(props);
         this.state = {
-          show: false
+          showDetails: false,
+          showExp: false,
         };
     }
     /*
@@ -31,15 +32,18 @@ export default class Profile extends Component {
             return (
                 <View>
                     <View>
-                        <TouchableOpacity onPress={() => this.setState({ show: !this.state.show })}>
+                        <TouchableOpacity onPress={() => this.setState({ showDetails: !this.state.showDetails })}>
                             <Text style={styles.subtitle3}>Mostrar detalles</Text>
                         </TouchableOpacity>
                     </View>
-                    {this.state.show ? (
+                    {this.state.showDetails ? (
                         <View>
-                            <TouchableOpacity>
+                            <TouchableOpacity onPress={() => this.setState({ showExp: !this.state.showExp })}>
                                 <Text style={styles.text}>Experiencia publica</Text>
                             </TouchableOpacity>
+                            {this.state.showExp ? 
+                                <Text>Que tranza perro</Text>
+                            : null }
                             <Text style={styles.text}>Nacimiento</Text>
                             {item["numero de partidos"] !== 0 ? 
                                 <TouchableOpacity>
