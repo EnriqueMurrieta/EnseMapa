@@ -15,7 +15,7 @@ export default class Profile extends Component {
     constructor(props) {
         super(props);
         this.state = {
-          show: true
+          show: false
         };
     }
     /*
@@ -32,12 +32,23 @@ export default class Profile extends Component {
                 <View>
                     <View>
                         <TouchableOpacity onPress={() => this.setState({ show: !this.state.show })}>
-                            <Text style={styles.subtitle2}>Mostrar detalles</Text>
+                            <Text style={styles.subtitle3}>Mostrar detalles</Text>
                         </TouchableOpacity>
                     </View>
                     {this.state.show ? (
                         <View>
-                            <Text>Sup, dude</Text>
+                            <TouchableOpacity>
+                                <Text style={styles.text}>Experiencia publica</Text>
+                            </TouchableOpacity>
+                            <Text style={styles.text}>Nacimiento</Text>
+                            {item["numero de partidos"] !== 0 ? 
+                                <TouchableOpacity>
+                                    <Text style={styles.text}>Ex partidos</Text>
+                                </TouchableOpacity>
+                            : null }
+                            <TouchableOpacity>
+                                <Text style={styles.text}>Experiencia publica</Text>
+                            </TouchableOpacity>
                         </View>
                     ) : null }
                 </View>
@@ -53,8 +64,8 @@ export default class Profile extends Component {
                         </>
                     }
                     style={styles.scrollView}
-                    numColumns='2'
-                    columnWrapperStyle={{justifyContent: 'space-between'}}
+                    /*numColumns='2'
+                    columnWrapperStyle={{justifyContent: 'space-between'}}*/
                     data={data.detalles}
                     renderItem={dang}
                     keyExtractor={(item, index) => index.toString()}

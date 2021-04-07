@@ -41,109 +41,109 @@
             },
             "detalles": [
                 {
-                "numero de experiencia": "4",
-                "experiencia publica": [
-                    {
-                        "cargo": "Senador al Congreso de la Unión de México",
-                        "por": "Baja California",
-                        "inicio mandato": {
-                            "ano": "2018",
-                            "fecha": "1 de septiembre 2018"
+                    "numero de experiencia": "4",
+                    "experiencia publica": [
+                        {
+                            "cargo": "Senador al Congreso de la Unión de México",
+                            "por": "Baja California",
+                            "inicio mandato": {
+                                "ano": "2018",
+                                "fecha": "1 de septiembre 2018"
+                            },
+                            "termino mandato": {
+                                "ano": "2018",
+                                "fecha": "6 de diciembre 2018"
+                            },
+                            "predecesor": "Ernesto Ruffo Appel",
+                            "sucesor": "Gerardo Novelo Osuna"
                         },
-                        "termino mandato": {
-                            "ano": "2018",
-                            "fecha": "6 de diciembre 2018"
+                        {
+                            "cargo": "Diputado al Congreso de la Unión de México",
+                            "por": "Plurinominal",
+                            "inicio mandato": {
+                                "ano": "2012",
+                                "fecha": "1 de septiembre 2012"
+                            },
+                            "termino mandato": {
+                                "ano": "2015",
+                                "fecha": "28 de abril 2015"
+                            },
+                            "predecesor": "",
+                            "sucesor": "Héctor Irineo Mares Cossío"
                         },
-                        "predecesor": "Ernesto Ruffo Appel",
-                        "sucesor": "Gerardo Novelo Osuna"
-                    },
-                    {
-                        "cargo": "Diputado al Congreso de la Unión de México",
-                        "por": "Plurinominal",
-                        "inicio mandato": {
-                            "ano": "2012",
-                            "fecha": "1 de septiembre 2012"
+                        {
+                            "cargo": "Presidente de la Junta Directiva del Otay Water District",
+                            "por": "",
+                            "inicio mandato": {
+                                "ano": "2008",
+                                "fecha": "enero 2008"
+                            },
+                            "termino mandato": {
+                                "ano": "2012",
+                                "fecha": "27 de marzo 2012"
+                            },
+                            "predecesor": "",
+                            "sucesor": "Mitch Thompson"
                         },
-                        "termino mandato": {
-                            "ano": "2015",
-                            "fecha": "28 de abril 2015"
-                        },
-                        "predecesor": "",
-                        "sucesor": "Héctor Irineo Mares Cossío"
-                    },
-                    {
-                        "cargo": "Presidente de la Junta Directiva del Otay Water District",
-                        "por": "",
-                        "inicio mandato": {
-                            "ano": "2008",
-                            "fecha": "enero 2008"
-                        },
-                        "termino mandato": {
-                            "ano": "2012",
-                            "fecha": "27 de marzo 2012"
-                        },
-                        "predecesor": "",
-                        "sucesor": "Mitch Thompson"
-                    },
-                    {
-                        "cargo": "Miembro de la Junta Directiva del Otay Water District",
-                        "por": "la división 2",
-                        "inicio mandato": {
-                            "ano": "2000",
-                            "fecha": "enero 2000"
-                        },
-                        "termino mandato": {
-                            "ano": "2012",
-                            "fecha": "27 marzo 2012"
-                        },
-                        "predecesor": "",
-                        "sucesor": "Mitch Thompson"
-                    }
-                ],
-                "nacimiento": {
-                    "fecha": "9 de junio 1950",
-                    "ano": "1950"
-                },
-                "lugar de nacimiento": "Tijuana, Baja California, México",
-                "numero de ex partidos": "2",
-                "ex partidos": {
-                    "0": {
-                        "partido": "PT",
-                        "inicio": {
-                            "ano": "2012",
-                            "fecha": "2012"
-                        },
-                        "termino": {
-                            "ano": "2015",
-                            "fecha": "2015"
+                        {
+                            "cargo": "Miembro de la Junta Directiva del Otay Water District",
+                            "por": "la división 2",
+                            "inicio mandato": {
+                                "ano": "2000",
+                                "fecha": "enero 2000"
+                            },
+                            "termino mandato": {
+                                "ano": "2012",
+                                "fecha": "27 marzo 2012"
+                            },
+                            "predecesor": "",
+                            "sucesor": "Mitch Thompson"
                         }
+                    ],
+                    "nacimiento": {
+                        "fecha": "9 de junio 1950",
+                        "ano": "1950"
                     },
-                    "1": {
-                        "partido": "Partido Republicano",
-                        "inicio": {
-                            "ano": "2000",
-                            "fecha": "2000"
+                    "lugar de nacimiento": "Tijuana, Baja California, México",
+                    "numero de ex partidos": "2",
+                    "ex partidos": [
+                        {
+                            "partido": "PT",
+                            "inicio": {
+                                "ano": "2012",
+                                "fecha": "2012"
+                            },
+                            "termino": {
+                                "ano": "2015",
+                                "fecha": "2015"
+                            }
                         },
-                        "termino": {
-                            "ano": "2012",
-                            "fecha": "2012"
+                        {
+                            "partido": "Partido Republicano",
+                            "inicio": {
+                                "ano": "2000",
+                                "fecha": "2000"
+                            },
+                            "termino": {
+                                "ano": "2012",
+                                "fecha": "2012"
+                            }
                         }
-                    }
-                },
-                "educacion": {
+                    ],
                     "numero de educacion": "2",
-                    "0": {
-                        "titulo": "Ingeniero Industrial",
-                        "institucion": "UNAM"
-                    },
-                    "1": {
-                        "titulo": "Maestro en Administración Pública",
-                        "institucion": "San Diego National University"
-                    }
-                },
-                "ocupacion": "Empresario y político",
-                "gabinete": ""
-            }
+                    "educacion": [
+                        {
+                            "titulo": "Ingeniero Industrial",
+                            "institucion": "UNAM"
+                        },
+                        {
+                            "titulo": "Maestro en Administración Pública",
+                            "institucion": "San Diego National University"
+                        }
+                    ],
+                    "ocupacion": "Empresario y político",
+                    "gabinete": ""
+                }
             ],
             "numero de ex gobernadores": "14",
             "desde": "1953",
