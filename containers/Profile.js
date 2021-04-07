@@ -17,6 +17,8 @@ export default class Profile extends Component {
         this.state = {
           showDetails: false,
           showExp: false,
+          showPartidos: false,
+          showEdu: false
         };
     }
     /*
@@ -33,6 +35,13 @@ export default class Profile extends Component {
                 return (
                     <View>
                         <Text>{item.cargo}</Text>
+                    </View>
+                );
+            },
+            partidos = ({ item }) => {
+                return (
+                    <View>
+                        <Text>{item.partido}</Text>
                     </View>
                 );
             }
@@ -57,17 +66,32 @@ export default class Profile extends Component {
                                         data={item["experiencia publica"]}
                                         renderItem={fleco}
                                         keyExtractor={(item, index) => index.toString()}
+                                        listKey="anotherUniqueString"
                                     />
                                 </SafeAreaView>
                             : null }
                             <Text style={styles.text}>Nacimiento</Text>
                             {item["numero de partidos"] !== 0 ? 
-                                <TouchableOpacity>
-                                    <Text style={styles.text}>Ex partidos</Text>
-                                </TouchableOpacity>
+                                <View>
+                                    <TouchableOpacity onPress={() => this.setState({ showPartidos: !this.state.showPartidos })}>
+                                        <Text style={styles.text}>Ex partidos</Text>
+                                    </TouchableOpacity>
+                                    {this.state.showPartidos ? 
+                                        <SafeAreaView style={styles.container}>
+                                            <FlatList
+                                                style={styles.scrollView}
+                                                /*numColumns='2'
+                                                columnWrapperStyle={{justifyContent: 'space-between'}}*/
+                                                data={item["ex partidos"]}
+                                                renderItem={partidos}
+                                                keyExtractor={(item, index) => index.toString()}
+                                            />
+                                        </SafeAreaView>
+                                    : null }
+                                </View>
                             : null }
                             <TouchableOpacity>
-                                <Text style={styles.text}>Experiencia publica</Text>
+                                <Text style={styles.text}>Educacion</Text>
                             </TouchableOpacity>
                         </View>
                     ) : null }

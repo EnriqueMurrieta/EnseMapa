@@ -176,67 +176,69 @@
                         "img": "data:image/png;base64,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",
                         "desde": ""
                     },
-                    "detalles": {
-                        "numero de experiencia": "2",
-                        "experiencia publica": [
-                            {
-                                "cargo": "Diputado del Congreso de la Unión",
-                                "por": "Plurinominal",
-                                "inicio mandato": {
-                                    "ano": "2009",
-                                    "fecha": "1 de septiembre 2009"
+                    "numero de experiencia": "2",
+                    "detalles": [
+                        {
+                            "experiencia publica": [
+                                {
+                                    "cargo": "Diputado del Congreso de la Unión",
+                                    "por": "Plurinominal",
+                                    "inicio mandato": {
+                                        "ano": "2009",
+                                        "fecha": "1 de septiembre 2009"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "2012",
+                                        "fecha": "30 de agosto 2012"
+                                    },
+                                    "predecesor": "",
+                                    "sucesor": ""
                                 },
-                                "termino mandato": {
-                                    "ano": "2012",
-                                    "fecha": "30 de agosto 2012"
-                                },
-                                "predecesor": "",
-                                "sucesor": ""
-                            },
-                            {
-                                "cargo": "Presidente municipal de Tijuana",
-                                "por": "",
-                                "inicio mandato": {
-                                    "ano": "1998",
-                                    "fecha": "1 de novimbre 1998"
-                                },
-                                "termino mandato": {
-                                    "ano": "",
-                                    "fecha": "31 de octubre 2001"
-                                },
-                                "predecesor": "José Guadalupe Osuna Millán",
-                                "sucesor": "Jesús González Reyes"
-                            }
-                        ],
-                        "nacimiento": {
-                            "fecha": "22 de mayo 1955",
-                            "ano": "1955"
-                        },
-                        "lugar de nacimiento": "Ciudad Obregón, Sonora",
-                        "ex partidos": {
-                            "numero de ex partidos": "0",
-                            "0": {
-                                "partido": "",
-                                "inicio": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "termino": {
-                                    "ano": "",
-                                    "fecha": ""
+                                {
+                                    "cargo": "Presidente municipal de Tijuana",
+                                    "por": "",
+                                    "inicio mandato": {
+                                        "ano": "1998",
+                                        "fecha": "1 de novimbre 1998"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "",
+                                        "fecha": "31 de octubre 2001"
+                                    },
+                                    "predecesor": "José Guadalupe Osuna Millán",
+                                    "sucesor": "Jesús González Reyes"
                                 }
-                            }
-                        },
-                        "educacion": {
-                            "numero de educacion": "",
-                            "0": {
-                                "titulo": "Administración de Empresas",
-                                "institucion": "Centro de Enseñanza Técnica y Superior (CETYS)"
-                            }
-                        },
-                        "ocupacion": "Administrador de Empresas y Político",
-                        "gabinete": ""
-                    }
+                            ],
+                            "nacimiento": {
+                                "fecha": "22 de mayo 1955",
+                                "ano": "1955"
+                            },
+                            "lugar de nacimiento": "Ciudad Obregón, Sonora",
+                            "numero de ex partidos": "0",
+                            "ex partidos": [
+                                {
+                                    "partido": "",
+                                    "inicio": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "termino": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    }
+                                }
+                            ],
+                            "numero de educacion": "1",
+                            "educacion": [
+                                {
+                                    "titulo": "Administración de Empresas",
+                                    "institucion": "Centro de Enseñanza Técnica y Superior (CETYS)"
+                                }
+                            ],
+                            "ocupacion": "Administrador de Empresas y Político",
+                            "gabinete": ""
+                        }
+                    ]
                 },
                 {
                     "nombre": "José Guadalupe Osuna Millán",
@@ -266,71 +268,73 @@
                         "img": "data:image/png;base64,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",
                         "desde": ""
                     },
-                    "detalles": {
-                        "numero de experiencia": "2",
-                        "experiencia publica": [
-                            {
-                                "cargo": "Diputado del Congreso de la Unión",
-                                "por": "Distrito 5 de Baja California",
-                                "inicio mandato": {
-                                    "ano": "2003",
-                                    "fecha": "1 de septiembre 2003"
+                    "detalles": [
+                        {
+                            "numero de experiencia": "2",
+                            "experiencia publica": [
+                                {
+                                    "cargo": "Diputado del Congreso de la Unión",
+                                    "por": "Distrito 5 de Baja California",
+                                    "inicio mandato": {
+                                        "ano": "2003",
+                                        "fecha": "1 de septiembre 2003"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "2006",
+                                        "fecha": "31 de agosto 2006"
+                                    },
+                                    "predecesor": "Francisco Blake Mora",
+                                    "sucesor": "Antonio Valladolid Rodríguez"
                                 },
-                                "termino mandato": {
-                                    "ano": "2006",
-                                    "fecha": "31 de agosto 2006"
-                                },
-                                "predecesor": "Francisco Blake Mora",
-                                "sucesor": "Antonio Valladolid Rodríguez"
-                            },
-                            {
-                                "cargo": "Presidente municipal de Tijuana",
-                                "por": "",
-                                "inicio mandato": {
-                                    "ano": "1995",
-                                    "fecha": "1 de noviembre 1995"
-                                },
-                                "termino mandato": {
-                                    "ano": "1998",
-                                    "fecha": "31 de octubre 1998"
-                                },
-                                "predecesor": "Héctor Osuna",
-                                "sucesor": "Francisco Vega de Lamadrid"
-                            }
-                        ],
-                        "nacimiento": {
-                            "fecha": "15 de diciembre de 1955",
-                            "ano": "1955"
-                        },
-                        "lugar de nacimiento": "Agua Caliente de Gárate, Sinaloa",
-                        "ex partidos": {
-                            "numero de ex partidos": "0",
-                            "0": {
-                                "partido": "",
-                                "inicio": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "termino": {
-                                    "ano": "",
-                                    "fecha": ""
+                                {
+                                    "cargo": "Presidente municipal de Tijuana",
+                                    "por": "",
+                                    "inicio mandato": {
+                                        "ano": "1995",
+                                        "fecha": "1 de noviembre 1995"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1998",
+                                        "fecha": "31 de octubre 1998"
+                                    },
+                                    "predecesor": "Héctor Osuna",
+                                    "sucesor": "Francisco Vega de Lamadrid"
                                 }
-                            }
-                        },
-                        "educacion": {
-                            "numero de educacion": "2",
-                            "0": {
-                                "titulo": "Economía",
-                                "institucion": "UABC"
+                            ],
+                            "nacimiento": {
+                                "fecha": "15 de diciembre de 1955",
+                                "ano": "1955"
                             },
-                            "1": {
-                                "titulo": "Maestría en ciencias económicas",
-                                "institucion": "IPN"
-                            }
-                        },
-                        "ocupacion": "Economista",
-                        "gabinete": ""
-                    }
+                            "lugar de nacimiento": "Agua Caliente de Gárate, Sinaloa",
+                            "numero de ex partidos": "0",
+                            "ex partidos": [
+                                {
+                                    "partido": "",
+                                    "inicio": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "termino": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    }
+                                }
+                            ],
+                            "numero de educacion": "2",
+                            "educacion": [
+                                {
+                                    "titulo": "Economía",
+                                    "institucion": "UABC"
+                                },
+                                {
+                                    "titulo": "Maestría en ciencias económicas",
+                                    "institucion": "IPN"
+                                }
+                            ],
+                            "ocupacion": "Economista",
+                            "gabinete": ""
+                        }
+                    ]
                 },
                 {
                     "nombre": "Eugenio Elorduy Walther",
@@ -360,53 +364,55 @@
                         "img": "data:image/png;base64,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",
                         "desde": ""
                     },
-                    "detalles": {
-                        "experiencia publica": {
+                    "detalles": [
+                        {
                             "numero de experiencia": "1",
-                            "0": {
-                                "cargo": "Presidente municipal de Mexicali",
-                                "por": "",
-                                "inicio mandato": {
-                                    "ano": "1995",
-                                    "fecha": "1 de diciembre de 1995"
-                                },
-                                "termino mandato": {
-                                    "ano": "1998",
-                                    "fecha": "30 de noviembre de 1998"
-                                },
-                                "predecesor": "Angélica Obeso Covarrubias",
-                                "sucesor": "Víctor Hermosillo Celada"
-                            }
-                        },
-                        "nacimiento": {
-                            "fecha": "21 de noviembre de 1940",
-                            "ano": "1940"
-                        },
-                        "lugar de nacimiento": "Calexico, California, Estados Unidos",
-                        "ex partidos": {
-                            "numero de ex partidos": "0",
-                            "0": {
-                                "partido": "",
-                                "inicio": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "termino": {
-                                    "ano": "",
-                                    "fecha": ""
+                            "experiencia publica": [
+                                {
+                                    "cargo": "Presidente municipal de Mexicali",
+                                    "por": "",
+                                    "inicio mandato": {
+                                        "ano": "1995",
+                                        "fecha": "1 de diciembre de 1995"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1998",
+                                        "fecha": "30 de noviembre de 1998"
+                                    },
+                                    "predecesor": "Angélica Obeso Covarrubias",
+                                    "sucesor": "Víctor Hermosillo Celada"
                                 }
-                            }
-                        },
-                        "educacion": {
+                            ],
+                            "nacimiento": {
+                                "fecha": "21 de noviembre de 1940",
+                                "ano": "1940"
+                            },
+                            "lugar de nacimiento": "Calexico, California, Estados Unidos",
+                            "numero de ex partidos": "0",
+                            "ex partidos": [
+                                {
+                                    "partido": "",
+                                    "inicio": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "termino": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    }
+                                }
+                            ],
                             "numero de educacion": "1",
-                            "0": {
-                                "titulo": "Licenciado en Administración de Empresas",
-                                "institucion": "Instituto Tecnológico y de Estudios Superiores de Monterrey"
-                            }
-                        },
-                        "ocupacion": "Administración de Empresas",
-                        "gabinete": ""
-                    }
+                            "educacion": [
+                                {
+                                    "titulo": "Licenciado en Administración de Empresas",
+                                    "institucion": "Instituto Tecnológico y de Estudios Superiores de Monterrey"
+                                }
+                            ],
+                            "ocupacion": "Administración de Empresas",
+                            "gabinete": ""
+                        }
+                    ]
                 },
                 {
                     "nombre": "Alejandro González Alcocer",
@@ -436,67 +442,69 @@
                         "img": "data:image/png;base64,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",
                         "desde": ""
                     },
-                    "detalles": {
-                        "experiencia publica": {
+                    "detalles": [
+                        {
                             "numero de experiencia": "2",
-                            "0": {
-                                "cargo": "Senador del Congreso de la Unión",
-                                "por": "Baja California, Primera fórmula",
-                                "inicio mandato": {
-                                    "ano": "2006",
-                                    "fecha": "1 de septiembre de 2006"
+                            "experiencia publica": [
+                                {
+                                    "cargo": "Senador del Congreso de la Unión",
+                                    "por": "Baja California, Primera fórmula",
+                                    "inicio mandato": {
+                                        "ano": "2006",
+                                        "fecha": "1 de septiembre de 2006"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "2012",
+                                        "fecha": "31 de agosto de 2012"
+                                    },
+                                    "predecesor": "Héctor Osuna",
+                                    "sucesor": "Ernesto Ruffo Appel"
                                 },
-                                "termino mandato": {
-                                    "ano": "2012",
-                                    "fecha": "31 de agosto de 2012"
-                                },
-                                "predecesor": "Héctor Osuna",
-                                "sucesor": "Ernesto Ruffo Appel"
-                            },
-                            "1": {
-                                "cargo": "Diputado del Congreso de la Unión",
-                                "por": "Plurinominal",
-                                "inicio mandato": {
-                                    "ano": "1994",
-                                    "fecha": " 1 de noviembre de 1994"
-                                },
-                                "termino mandato": {
-                                    "ano": "1997",
-                                    "fecha": "31 de agosto de 1997"
-                                },
-                                "predecesor": "",
-                                "sucesor": ""
-                            }
-                        },
-                        "nacimiento": {
-                            "fecha": "24 de abril de 1951",
-                            "ano": "1951"
-                        },
-                        "lugar de nacimiento": "Ciudad de México, México",
-                        "ex partidos": {
-                            "numero de ex partidos": "0",
-                            "0": {
-                                "partido": "",
-                                "inicio": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "termino": {
-                                    "ano": "",
-                                    "fecha": ""
+                                {
+                                    "cargo": "Diputado del Congreso de la Unión",
+                                    "por": "Plurinominal",
+                                    "inicio mandato": {
+                                        "ano": "1994",
+                                        "fecha": " 1 de noviembre de 1994"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1997",
+                                        "fecha": "31 de agosto de 1997"
+                                    },
+                                    "predecesor": "",
+                                    "sucesor": ""
                                 }
-                            }
-                        },
-                        "educacion": {
+                            ],
+                            "nacimiento": {
+                                "fecha": "24 de abril de 1951",
+                                "ano": "1951"
+                            },
+                            "lugar de nacimiento": "Ciudad de México, México",
+                            "numero de ex partidos": "0",
+                            "ex partidos": [
+                                {
+                                    "partido": "",
+                                    "inicio": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "termino": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    }
+                                }
+                            ],
                             "numero de educacion": "1",
-                            "0": {
-                                "titulo": "Licenciatura en derecho",
-                                "institucion": "UNAM"
-                            }
-                        },
-                        "ocupacion": "abogado",
-                        "gabinete": ""
-                    }
+                            "educacion": [
+                                {
+                                    "titulo": "Licenciatura en derecho",
+                                    "institucion": "UNAM"
+                                }
+                            ],
+                            "ocupacion": "abogado",
+                            "gabinete": ""
+                        }
+                    ]
                 },
                 {
                     "nombre": "Héctor Terán Terán",
@@ -526,85 +534,87 @@
                         "img": "data:image/png;base64,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",
                         "desde": ""
                     },
-                    "detalles": {
-                        "experiencia publica": {
+                    "detalles": [
+                        {
                             "numero de experiencia": "3",
-                            "0": {
-                                "cargo": "Senador al Congreso de la Unión",
-                                "por": "Baja California",
-                                "inicio mandato": {
-                                    "ano": "1991",
-                                    "fecha": "1 de noviembre de 1991"
+                            "experiencia publica": [
+                                {
+                                    "cargo": "Senador al Congreso de la Unión",
+                                    "por": "Baja California",
+                                    "inicio mandato": {
+                                        "ano": "1991",
+                                        "fecha": "1 de noviembre de 1991"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1955",
+                                        "fecha": "1995"
+                                    },
+                                    "predecesor": "Gustavo Adolfo Almaraz",
+                                    "sucesor": "Ricardo González Cruz"
                                 },
-                                "termino mandato": {
-                                    "ano": "1955",
-                                    "fecha": "1995"
+                                {
+                                    "cargo": "Diputado del Congreso de la Unión",
+                                    "por": "Plurinominal",
+                                    "inicio mandato": {
+                                        "ano": "1985",
+                                        "fecha": "1985"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1988",
+                                        "fecha": "1988"
+                                    },
+                                    "predecesor": "",
+                                    "sucesor": ""
                                 },
-                                "predecesor": "Gustavo Adolfo Almaraz",
-                                "sucesor": "Ricardo González Cruz"
-                            },
-                            "1": {
-                                "cargo": "Diputado del Congreso de la Unión",
-                                "por": "Plurinominal",
-                                "inicio mandato": {
-                                    "ano": "1985",
-                                    "fecha": "1985"
-                                },
-                                "termino mandato": {
-                                    "ano": "1988",
-                                    "fecha": "1988"
-                                },
-                                "predecesor": "",
-                                "sucesor": ""
-                            },
-                            "2": {
-                                "cargo": "Diputado al Congreso de Baja California",
-                                "por": "",
-                                "inicio mandato": {
-                                    "ano": "1980",
-                                    "fecha": "1980"
-                                },
-                                "termino mandato": {
-                                    "ano": "1983",
-                                    "fecha": "1983"
-                                },
-                                "predecesor": "",
-                                "sucesor": ""
-                            }
-                        },
-                        "nacimiento": {
-                            "fecha": "1931",
-                            "ano": "3 de abril de 1931"
-                        },
-                        "lugar de nacimiento": "Moctezuma, Sonora",
-                        "muerte": {
-                            "fecha": "4 de octubre de 1998",
-                            "ano": "1998"
-                        },
-                        "ex partidos": {
-                            "numero de ex partidos": "0",
-                            "0": {
-                                "partido": "",
-                                "inicio": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "termino": {
-                                    "ano": "",
-                                    "fecha": ""
+                                {
+                                    "cargo": "Diputado al Congreso de Baja California",
+                                    "por": "",
+                                    "inicio mandato": {
+                                        "ano": "1980",
+                                        "fecha": "1980"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1983",
+                                        "fecha": "1983"
+                                    },
+                                    "predecesor": "",
+                                    "sucesor": ""
                                 }
-                            }
-                        },
-                        "educacion": {
+                            ],
+                            "nacimiento": {
+                                "fecha": "1931",
+                                "ano": "3 de abril de 1931"
+                            },
+                            "lugar de nacimiento": "Moctezuma, Sonora",
+                            "muerte": {
+                                "fecha": "4 de octubre de 1998",
+                                "ano": "1998"
+                            },
+                            "numero de ex partidos": "0",
+                            "ex partidos": [
+                                {
+                                    "partido": "",
+                                    "inicio": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "termino": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    }
+                                }
+                            ],
                             "numero de educacion": "1",
-                            "0": {
-                                "titulo": "Licenciado en Administración de Empresas",
-                                "institucion": "Centro de Enseñanza Técnica y Superior (CETYS)"
-                            }
-                        },
-                        "ocupacion": "Administración de Empresas",
-                        "gabinete": ""
-                    }
+                            "educacion": [
+                                {
+                                    "titulo": "Licenciado en Administración de Empresas",
+                                    "institucion": "Centro de Enseñanza Técnica y Superior (CETYS)"
+                                }
+                            ],
+                            "ocupacion": "Administración de Empresas",
+                            "gabinete": ""
+                        }
+                    ]
                 },
                 {
                     "nombre": "Ernesto Ruffo Appel",
@@ -634,81 +644,83 @@
                         "img": "data:image/png;base64,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",
                         "desde": ""
                     },
-                    "detalles": {
-                        "experiencia publica": {
+                    "detalles": [
+                        {
                             "numero de experiencia": "3",
-                            "0": {
-                                "cargo": "Diputado al Congreso de la Unión",
-                                "por": "Plurinominal",
-                                "inicio mandato": {
-                                    "ano": "2018",
-                                    "fecha": "1 de septiembre de 2018"
+                            "experiencia publica": [
+                                {
+                                    "cargo": "Diputado al Congreso de la Unión",
+                                    "por": "Plurinominal",
+                                    "inicio mandato": {
+                                        "ano": "2018",
+                                        "fecha": "1 de septiembre de 2018"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "predecesor": "David Ojeda Ochoa",
+                                    "sucesor": "Enrique Chapela"
                                 },
-                                "termino mandato": {
-                                    "ano": "",
-                                    "fecha": ""
+                                {
+                                    "cargo": "Senador al Congreso de la Unión",
+                                    "por": "Baja California, Primera fórmula",
+                                    "inicio mandato": {
+                                        "ano": "2012",
+                                        "fecha": "1 de septiembre de 2012"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "2018",
+                                        "fecha": "31 de agosto de 2018"
+                                    },
+                                    "predecesor": "Alejandro González Alcocer",
+                                    "sucesor": "Jaime Bonilla Valdéz"
                                 },
-                                "predecesor": "David Ojeda Ochoa",
-                                "sucesor": "Enrique Chapela"
-                            },
-                            "1": {
-                                "cargo": "Senador al Congreso de la Unión",
-                                "por": "Baja California, Primera fórmula",
-                                "inicio mandato": {
-                                    "ano": "2012",
-                                    "fecha": "1 de septiembre de 2012"
-                                },
-                                "termino mandato": {
-                                    "ano": "2018",
-                                    "fecha": "31 de agosto de 2018"
-                                },
-                                "predecesor": "Alejandro González Alcocer",
-                                "sucesor": "Jaime Bonilla Valdéz"
-                            },
-                            "2": {
-                                "cargo": "Presidente Municipal de Ensenada",
-                                "por": "",
-                                "inicio mandato": {
-                                    "ano": "1986",
-                                    "fecha": "1 de diciembre de 1986"
-                                },
-                                "termino mandato": {
-                                    "ano": "1989",
-                                    "fecha": "30 de noviembre de 1989"
-                                },
-                                "predecesor": "David Ojeda Ochoa",
-                                "sucesor": "Enrique Chapela"
-                            }
-                        },
-                        "nacimiento": {
-                            "fecha": "25 de junio de 1952",
-                            "ano": "1952"
-                        },
-                        "lugar de nacimiento": "San Diego, California, Estados Unidos",
-                        "ex partidos": {
-                            "numero de ex partidos": "0",
-                            "0": {
-                                "partido": "",
-                                "inicio": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "termino": {
-                                    "ano": "",
-                                    "fecha": ""
+                                {
+                                    "cargo": "Presidente Municipal de Ensenada",
+                                    "por": "",
+                                    "inicio mandato": {
+                                        "ano": "1986",
+                                        "fecha": "1 de diciembre de 1986"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1989",
+                                        "fecha": "30 de noviembre de 1989"
+                                    },
+                                    "predecesor": "David Ojeda Ochoa",
+                                    "sucesor": "Enrique Chapela"
                                 }
-                            }
-                        },
-                        "educacion": {
-                            "numero de educacion": "",
-                            "0": {
-                                "titulo": "Administración de Empresas",
-                                "institucion": "Instituto Tecnológico y de Estudios Superiores de Monterrey"
-                            }
-                        },
-                        "ocupacion": "Administrador de empresas, Político",
-                        "gabinete": ""
-                    }
+                            ],
+                            "nacimiento": {
+                                "fecha": "25 de junio de 1952",
+                                "ano": "1952"
+                            },
+                            "lugar de nacimiento": "San Diego, California, Estados Unidos",
+                            "numero de ex partidos": "0",
+                            "ex partidos": [
+                                {
+                                    "partido": "",
+                                    "inicio": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "termino": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    }
+                                }
+                            ],
+                            "numero de educacion": "0",
+                            "educacion": [
+                                {
+                                    "titulo": "Administración de Empresas",
+                                    "institucion": "Instituto Tecnológico y de Estudios Superiores de Monterrey"
+                                }
+                            ],
+                            "ocupacion": "Administrador de empresas, Político",
+                            "gabinete": ""
+                        }
+                    ]
                 },
                 {
                     "nombre": "Óscar Baylón Chacón",
@@ -738,85 +750,87 @@
                         "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAACXCAMAAAAvQTlLAAAAkFBMVEUGM47///8ALYwAMI0AIYgAGoYAJIkAKIthc6ydqcqGkrwAK4sAHodqa6YAAIAAJopfZaRAVZ2Djrvs7vR8hrUADoT29/rQ1OTm6fEAE4UAF4bf4u06T5qSm8LKzuBqcqsoN481RpVPWZ6ttdFwe7C9xNomRJa1vNUbO5JcbKhUYaMsP5Oorcx6gLKdo8dHXaEmmsRtAAAQYklEQVR4nM2cCbeiOhKAMWHxCg1XkUUR3MW9//+/G1BSqSSIwXv7vKlzpt+0zfJRqVQqlaSMAUha5KcDNf4boYdTXqQcxgCqyXruOR9hUUqIW4lT/+ES+tlDHG++noQSV5z79iePI7ZluZfF5nu5XO5uu+rP7/PiQizLJp+w2X4eY65wY/V/iDP3/cPuXiRZGsa8BcI0S4rrbRH5M6c/nLUJOVeycnre7lhks9xmgy5Jy9uGWkHfJ68SxhX2w6Lu3D9vk7ATqjGPpDz5UT+rdVbhkyve9MEi1nG51UDiUu4ultsHbBM/uHJ926KOf7kmvahqybYLv4fSrLzmCn3tG7zjsNukXku6W1vaZH5YcY1MvYupPZt+SvUgy01Pk8wcDYx0rXexeZzG7S+MK89QuYZ9WZb7ymmIXkO4cHTx9FSwTo1irnOl699adRWWX5Pl5hBEXOzDZjm5l2nb5ekk0vIb88LINT6B2meVKs62O9e27cAhosYpcYL69+E2U31JOAw0+qaXG6f3TsJzSuX5RX4OoqDLBGgwMzf5Xrlzf3nfQs7JeBtBEPsmfXacTVeBreOSKn0au0Qyt3hE3umCHt4+2l5Jyoq335ap74yoOdtsJbJirWf/HWKexGemd1dLU1gqreWSfd4+il5AaHQXrTY3tLqv8hzLlci2875fh8RZFQLV3Wz7TEoC07M82yGOXf3XDNy2i2wvF1xHtrY/xfIWwjeWa0VXlJiR7453+f26rbzqvtxe7/nuL/Ujjyhw85Uw3offsw+xTrgfhmdTivKI56zHo30ay+49jsP9aHwJlBvMMf7QePqR9Uc3/L47FR11FfKu831XDJaW+cKXOq4T5PiSPOqP5U0QVnYSh9zAXk+zF6Mg1kg2WjvC91DvjMOkL82YgYs/QrfviXC/7e9kj/Qardz5goE7Nraya0+NeUjf8USY3Njurl+4k00JJqMeNpBrr/g/QtoKl/ibnGjyQbw6muHXz87IY3z10Jh34/el2M+49nd/qgfZEo8SzhFpXCegabDQ2JMc0RjrrfvNOLCUCzSNIC5y2FNNP+YsePdPKDctYu50rb1N4imKvIjNA6D4W8vGqMGVXAQcyzwWba/rIcmaq4yaHCxc6MzLI/76hE/kqbf8yaTjKemOu0HqcbBMY6pkcg+REY5ljtpe1Fvu6EttroDt2zE8OMHF4QWeQUw1kv5M9g4YGaG8Bd4NlYSAzYcL6Ilk9VPT4pJcONiR+7F1dzjGB4l4Cbp1jZ+bFpeUex7nDB1832n65g5uH4Efdtetc8GPJRwD2Jw78LwjEKY2tOIefAohv6mtBxjXmMfb5/BaY7wVM4NdRVafjTxdkoKNUROeXrycvLlnuPNkwo3qzPTnkkDWydnAj8NXbt+HBrtDt/U+HxG7ZA8TGA8cYzhv967c6ENDveuXBZKB1ARttEcWdAUXfDMXYZ7an/oLMmVgzpj9FLamvALos3uGRSrHNfrTLjmPLYpv9LuQJSvZv7CwDd2/YbZvgqm0ZlQj5iPiBdxRufmh6bbKnPfTyRz97mBn9xWR5xrIrBl1m79Xt48y1v/IBbxTS4LIBHVtWZzm1QY3fNV9nQu74S8eQ3zs7b6YAsjh+QMopIoDRsyTziFUUBVGDfb5MevD5BB3cRlzlrtY4a+clW1cdSpX5orH0C5Mx2pS1QUL/wKjvw46ucjmaUqp4KiFHsy55luFa1CyN9mgsJ38Np+pKzw2yI2Xfc1lNEH6XggF3L+tXO5S5RoMGzAasMZPpaQ9gfW+K7OuhrSDa/5Q6OAuBHV01cpFF6nKlTELs0Bhf8V4x7qyf2Au1W76QQeXOXlcMRGDTZq2cRnWXuUajEBhzLuUguVzq4c4gs2kOriCR9vES/EKUrRyPWfwElfGTBMihkyw/Kb10UuC4eAt19MCUylzbH+1clHawjWYmuxRTGE3PHpb7FkpcxLQDzgXMSuxEab7GEEyaVSzR61cT08hc2XMzufM8vc4L+AzWhY1OuA2gIv8zUeV7DgGeXDtpS7kLONWLu/ewjW4NRZmTtk9iIss2I/rpsHtq8LVWPmAL0Q8ue6SjyZjPl3HXA9bUbjK5mm8G6MwDHpjwvoHH7I4V/NFBaQTnlzKgonHOyTmooeshStmdg6JAdQjHdaF7o0ZBnz+oXAl4BaeXCt56PB54I25Hp5C4RpMGrsAs0yYYzco03x8cpVHq1xiO4bKxG8ONiBy1Q9QuZjlu38ZxJk5D/ASaYNKj9x033Elih+xubIFLmq0ccVjZtKsR97YE8FLsD7KTFyHS01E8l4kctUhkMoFc4kZc62lNBKitkaTjXdcuZLyoDDWSlyVy2/hYsO+zTw5jN0+u6SZWtILiu3ecMVKZFLZBdwucpHvATg/zsWieuqwXxp98Vii6Y2oId5yhRt1msyXUUUuekhBuShvxUIIiA6beBGGQuYBkJd4y5W1DJ88hSZyGR4P1RAXm56BB5s89QO5epYdm+G57BuupCXNHcCYInEFU1Au4mK9zWZx+fU5GEJEnjddS5g6vOG6tqRh3G/mZiQueuQ65VxsYwl8TvG8y2PenjkOD08B33DtWjKQlR21cxl8aEBccfOzywb8hD6vbdwE8/Zk3YNr3ZYdspjCZS4umOvcvLfZ+jXIHhEdXTdPCRvP6556cLUmbCNmwVpcLBSkl5SBPLjY6MgCTxt5+zYunh8dD7LW3BD0JD2uvPFPbCR6jpBcfQ2BKaxddnOVrQuIEFXqcV2bqyLW/H/qVxDWe7LGz3rCHgCVC3x2xaWOQrVAkKfHtW2eGLHxcFlzuX+av7GIwxJScQpXiePCW4tbrZ8Z9uFi824wy91DXyzKYS7Sa+eyH1wxzypUIROPlURxkj5ce0fienwtRF8Fi3LaucjitqtkzC3KOaXH9tRjsO3FRfS4ylauasCvBSko2GV4FEKILBGix1U0d0ZlJ9eLdlTFu+PJ3uXMI2pn93N96dqXKrM92ptINmhRjAXrP7Ivzf7YIhnKvgTThDckbZbKftQfNf2XImQTo63js2144X9rXJGm/7KEmxr/pevvFbHyEKUmquAILQc3IdxP/L06Pk61uOicJ9TrzhjjmKdxwv3Gx0AYHx/z81pYPOGctLisEmcKnSoI4SNBk+rpGU8chHjC0Iy/DEq4uHY9q55y5rrxM57ZaSY3P4m/1Hh13spFjwuQ8bneDQNpA+M5SITItT5jFj2u5jZHjFdRfN80S3t8b0/jEOTxBCHbLnEGe20uiO9Z3Mfie5gPNUHevH0+JISLD31zr0ofbY8WxJ7ZTC0umA+xdMT2OZdxNOePChcahZ6pVuTxnx+vxTV6MX+khF3RXPBivq1wodWc5ypHwnNhz8kN4pIiD8TFFtZMlgtkfhDyE+vO/ITChTKFz80zMTc48lhH4Fy2lOVH+YlmmKAu+wXyOaxDjjrzOQoXWpWjR0rF80yPZVi0blW84mKjNlgP5HMsNiAWnfkvmSsWkm5UAnt8LOJKx0Joy7lYZ4mU/BdEFN35Qpmr6NxT8/hYxDWYCAMHzxeyVVhHyRfy/Cpb7WjNr8pc185NSI9mwVx7oW+q+VW24oHmDAEzsC/VU7zmmnRuc6NHkSseCJkfno9mk1rmRXk+mufvs678vcy17N6CZMpcwhKemr9nukH5excc1uL9egeTcNy9+67e4SJwlXh/4+v1DrxOAetDX829DuROXnJlb8451tMqgSvDW8xhfagxBg+ejpeb+Hoae5m6niZztWUKsQQjiSvGDS+vp0FqqsSPhbnaYNfwO8r6o8zFM4U08rlA4zo3iWswQh1FWn/k7SNkFlrWax15vVbmYl/A81YPgSDfPYcSV4Zyni/Xa8VVVr6+zSY1yvq2zAX7yOgCx5GwqlzjilwDdKZPWt+G0EFc30Y5fGhfeT+AzAV2QM74Zx6DzROZa8IDtud+APaMGUwNF5Lz4fsnWMZU3j8hcfFGEedPW+CKSpmr4H3twXVqTIHCHgJ5/wTab7J9sd9E4trCtwvhLSRBHjGZxJUuhPw9vAky9+p+E7Q/h7kKchH250hcOXQuX9iAmMGs2/0rc6HOVu/PYZQUIsLsovhEvlsO/LI57ODiXxaJu8wXXGEKF1dyxQU702aws6FtAxjf/3UGlH29h+YZWlFL4Ao3QTOVdAyR62yzOWYUf0VswvnkCuHv8zxhjC7sq4/bzr3ZsAGsAM9Es8Husn7KSthqmC6/mUj99H5m/3DOyg37/83epyHcNQJb43nA1v1yaH/hkvUp8zRIMyY6B7b1Bd4RgJt5caTWhsGI7yT/d/sxGRZ1YbSYvAiAecfa/uv9qyVYEs+2Kb6LCdsAVwnsdvk3+30L2FZr8+TR6xO1PEPOW/Jf7I/O+NP5pvD96+kCDcC2+S5q1/3t/eSpAYMgPxYTHzvCX7T//g6t7V5+FyzlZxPQua5R50FUtNZxA9/s/uoO/IxrK+BbsvbdkxjCe228ATCy+j3jL/j5DmcNZhNfurmQl6siHr7SaP6Wuyj52UAXHTsZvj0Iic8PHQFMGh0/lhE/2ERc3tGvGucz0XkrZAqG9/1zI8tOaBOgzbGymcZpbnw+DYPZ9KdGVqzQclLAPz9s3VSgiIvO82XomCH94Xm+HTp2SijXVnzWPDOKzz+mC9T03uHa9kYt2aLDfOLBzJv2EXp8XjTcIDBinz87EZac8XlRe4FmnKMep7jx+dp4isd519/1JytuPh6Tox0K5e69TiTj88iDu4OdXuCc5IoSb3Q1dPCQTAJhh37PE9zC+e1CrJfi+KerbvAab5e+mMA0cLf+0i+SwzSGHWm484Su7NgXpQxHG1SyW5sCFfWGOJmR9z7vLtcH2B5E86SBf5x0Fo7KtpOjXLzLNL7wJZMP6gPUkw6hnsJSLuRCbfOyGF4TpVxOXJeKWVxsedbl2t/4ifHtA23VItWfKDbKcEGJM/fn69Mtv2+327L63z2fntaeP5eL11TXzhbCgJFuPir9UYsrxjdxSVrLoBHHrgt2mM2frdXIiB1cBb0mhz5VtCShkbAGP4iv6+iTgil0dvgSe/B19kmhNy7mSTzEGpbHoG91PCegkl+Jhz+rB1OJTeSQcL8jc/2PJZa9lA9Zl6v3Fv+23lAVRshONL0vbFtDa9Q17XWeyvWGJm9LNNGDTn0m01aj6OxreYy8LrURMzJOd3XyWdL39dmck149K7OtnlVajBaeGdiBWEqREreuZ2VeJntZU7WqTzqVDb1cu/7Xi+IhyTa/ncYHd95U/5o7h3Hlzrbtk/RsGml5h3mhXy9tJZe14pqrC6ZlSVFJ1lEurTKsi56Hr+ul6deXC6LbT1IV2US7DFZdX65XPb7V6VOybHjpWY+vV/1C1zc+qF+YXC/96xf2rvdonK594tUqMjz28MO83mP/+piWf7gXOkUWwuK68Odtdbc6sFh9zE/qiRIrWPzJi069Fffl2LH6Ds+onuiH9Vdd0/eNYV4WSRaCb4jDsPIYZb47+r7VT1EPEeqvPurV9qhlh+ACbzY31uPN959lLX++N+P10Zp5wSdhDDWlerW1yj6v7wsFfl3iEkI/r++7UOr71vJ/VQ/5f39ZOyhHvzQ1AAAAAElFTkSuQmCC",
                         "desde": ""
                     },
-                    "detalles": {
-                        "experiencia publica": {
+                    "detalles": [
+                        {
                             "numero de experiencia": "3",
-                            "0": {
-                                "cargo": "Senador del Congreso de la Unión",
-                                "por": "Baja California segunda formula",
-                                "inicio mandato": {
-                                    "ano": "1976",
-                                    "fecha": "1 de septiembre de 1976"
+                            "experiencia publica": [
+                                {
+                                    "cargo": "Senador del Congreso de la Unión",
+                                    "por": "Baja California segunda formula",
+                                    "inicio mandato": {
+                                        "ano": "1976",
+                                        "fecha": "1 de septiembre de 1976"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1982",
+                                        "fecha": "31 de agosto de 1982"
+                                    },
+                                    "predecesor": "Ramón Álvarez Cisneros",
+                                    "sucesor": "Armando Trasviña Taylor"
                                 },
-                                "termino mandato": {
-                                    "ano": "1982",
-                                    "fecha": "31 de agosto de 1982"
+                                {
+                                    "cargo": "Diputado del Congreso del Estado de Baja California",
+                                    "por": "Distrito 6",
+                                    "inicio mandato": {
+                                        "ano": "1965",
+                                        "fecha": "1 de agosto de 1965"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1968",
+                                        "fecha": "31 de julio de 1968"
+                                    },
+                                    "predecesor": "Guillermo Caballero Sosa",
+                                    "sucesor": "Eusebio Esteban Manríquez Manríquez"
                                 },
-                                "predecesor": "Ramón Álvarez Cisneros",
-                                "sucesor": "Armando Trasviña Taylor"
-                            },
-                            "1": {
-                                "cargo": "Diputado del Congreso del Estado de Baja California",
-                                "por": "Distrito 6",
-                                "inicio mandato": {
-                                    "ano": "1965",
-                                    "fecha": "1 de agosto de 1965"
-                                },
-                                "termino mandato": {
-                                    "ano": "1968",
-                                    "fecha": "31 de julio de 1968"
-                                },
-                                "predecesor": "Guillermo Caballero Sosa",
-                                "sucesor": "Eusebio Esteban Manríquez Manríquez"
-                            },
-                            "2": {
-                                "cargo": "Presidente Municipal de Tecate",
-                                "por": "",
-                                "inicio mandato": {
-                                    "ano": "1959",
-                                    "fecha": "1 de noviembre de 1959"
-                                },
-                                "termino mandato": {
-                                    "ano": "1962",
-                                    "fecha": "31 de octubre de 1962"
-                                },
-                                "predecesor": "Armando Aguilar Avilés",
-                                "sucesor": "José Gutiérrez Durán"
-                            }
-                        },
-                        "nacimiento": {
-                            "fecha": "1929",
-                            "ano": "1929"
-                        },
-                        "muerte": {
-                            "fecha": "10 de agosto de 2020",
-                            "ano": "2020"
-                        },
-                        "lugar de nacimiento": "Chihuahua, Chihuahua, México",
-                        "ex partidos": {
-                            "numero de ex partidos": "0",
-                            "0": {
-                                "partido": "",
-                                "inicio": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "termino": {
-                                    "ano": "",
-                                    "fecha": ""
+                                {
+                                    "cargo": "Presidente Municipal de Tecate",
+                                    "por": "",
+                                    "inicio mandato": {
+                                        "ano": "1959",
+                                        "fecha": "1 de noviembre de 1959"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1962",
+                                        "fecha": "31 de octubre de 1962"
+                                    },
+                                    "predecesor": "Armando Aguilar Avilés",
+                                    "sucesor": "José Gutiérrez Durán"
                                 }
-                            }
-                        },
-                        "educacion": {
+                            ],
+                            "nacimiento": {
+                                "fecha": "1929",
+                                "ano": "1929"
+                            },
+                            "muerte": {
+                                "fecha": "10 de agosto de 2020",
+                                "ano": "2020"
+                            },
+                            "lugar de nacimiento": "Chihuahua, Chihuahua, México",
+                            "numero de ex partidos": "0",
+                            "ex partidos": [
+                                {
+                                    "partido": "",
+                                    "inicio": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "termino": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    }
+                                }
+                            ],
                             "numero de educacion": "1",
-                            "0": {
-                                "titulo": "Ingeniero Agrónomo",
-                                "institucion": "Escuela Superior de Agricultura 'Hermanos Escobar'"
-                            }
-                        },
-                        "ocupacion": "Agrónomo y político",
-                        "gabinete": ""
-                    }
+                            "educacion": [
+                                {
+                                    "titulo": "Ingeniero Agrónomo",
+                                    "institucion": "Escuela Superior de Agricultura 'Hermanos Escobar'"
+                                }
+                            ],
+                            "ocupacion": "Agrónomo y político",
+                            "gabinete": ""
+                        }
+                    ]
                 },
                 {
                     "nombre": "Xicoténcatl Leyva Mortera",
@@ -848,53 +862,55 @@
                         "img": "data:image/png;base64,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",
                         "desde": ""
                     },
-                    "detalles": {
-                        "experiencia publica": {
+                    "detalles": [
+                        {
                             "numero de experiencia": "1",
-                            "0": {
-                                "cargo": "Presidente municipal de Tijuana",
-                                "por": "",
-                                "inicio mandato": {
-                                    "ano": "1977",
-                                    "fecha": "1 de diciembre de 1977"
-                                },
-                                "termino mandato": {
-                                    "ano": "1980",
-                                    "fecha": "30 de noviembre de 1980"
-                                },
-                                "predecesor": "Fernando Márquez Arce",
-                                "sucesor": "Roberto Andrade Salazar"
-                            }
-                        },
-                        "nacimiento": {
-                            "fecha": "4 de abril de 1940",
-                            "ano": "1940"
-                        },
-                        "lugar de nacimiento": "Xalapa, Veracruz",
-                        "ex partidos": {
-                            "numero de ex partidos": "1",
-                            "0": {
-                                "partido": "PRI",
-                                "inicio": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "termino": {
-                                    "ano": "",
-                                    "fecha": "2019"
+                            "experiencia publica": [
+                                {
+                                    "cargo": "Presidente municipal de Tijuana",
+                                    "por": "",
+                                    "inicio mandato": {
+                                        "ano": "1977",
+                                        "fecha": "1 de diciembre de 1977"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1980",
+                                        "fecha": "30 de noviembre de 1980"
+                                    },
+                                    "predecesor": "Fernando Márquez Arce",
+                                    "sucesor": "Roberto Andrade Salazar"
                                 }
-                            }
-                        },
-                        "educacion": {
+                            ],
+                            "nacimiento": {
+                                "fecha": "4 de abril de 1940",
+                                "ano": "1940"
+                            },
+                            "lugar de nacimiento": "Xalapa, Veracruz",
+                            "numero de ex partidos": "1",
+                            "ex partidos": [
+                                {
+                                    "partido": "PRI",
+                                    "inicio": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "termino": {
+                                        "ano": "",
+                                        "fecha": "2019"
+                                    }
+                                }
+                            ],
                             "numero de educacion": "1",
-                            "0": {
-                                "titulo": "Licenciado en Derecho",
-                                "institucion": "UNAM"
-                            }
-                        },
-                        "ocupacion": "Abogado",
-                        "gabinete": ""
-                    }
+                            "educacion": [
+                                {
+                                    "titulo": "Licenciado en Derecho",
+                                    "institucion": "UNAM"
+                                }
+                            ],
+                            "ocupacion": "Abogado",
+                            "gabinete": ""
+                        }
+                    ]
                 },
                 {
                     "nombre": "Roberto de la Madrid Romandía",
@@ -924,57 +940,59 @@
                         "img": "data:image/png;base64,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",
                         "desde": ""
                     },
-                    "detalles": {
-                        "experiencia publica": {
+                    "detalles": [
+                        {
                             "numero de experiencia": "1",
-                            "0": {
-                                "cargo": "Gerente General de la Lotería Nacional para la Asistencia Pública",
-                                "por": "",
-                                "inicio mandato": {
-                                    "ano": "1976",
-                                    "fecha": "1 de diciembre de 1976"
-                                },
-                                "termino mandato": {
-                                    "ano": "1977",
-                                    "fecha": "mayo de 1977"
-                                },
-                                "predecesor": "Carlos Argüelles del Razo",
-                                "sucesor": "Luis Barrera González"
-                            }
-                        },
-                        "nacimiento": {
-                            "fecha": "3 de febrero de 1922",
-                            "ano": "1922"
-                        },
-                        "muerte": {
-                            "fecha": "19 de marzo de 2010",
-                            "ano": "2010"
-                        },
-                        "lugar de nacimiento": "Calexico, California, Estados Unidos",
-                        "ex partidos": {
-                            "numero de ex partidos": "0",
-                            "0": {
-                                "partido": "",
-                                "inicio": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "termino": {
-                                    "ano": "",
-                                    "fecha": ""
+                            "experiencia publica": [
+                                {
+                                    "cargo": "Gerente General de la Lotería Nacional para la Asistencia Pública",
+                                    "por": "",
+                                    "inicio mandato": {
+                                        "ano": "1976",
+                                        "fecha": "1 de diciembre de 1976"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1977",
+                                        "fecha": "mayo de 1977"
+                                    },
+                                    "predecesor": "Carlos Argüelles del Razo",
+                                    "sucesor": "Luis Barrera González"
                                 }
-                            }
-                        },
-                        "educacion": {
+                            ],
+                            "nacimiento": {
+                                "fecha": "3 de febrero de 1922",
+                                "ano": "1922"
+                            },
+                            "muerte": {
+                                "fecha": "19 de marzo de 2010",
+                                "ano": "2010"
+                            },
+                            "lugar de nacimiento": "Calexico, California, Estados Unidos",
+                            "numero de ex partidos": "0",
+                            "ex partidos": [
+                                {
+                                    "partido": "",
+                                    "inicio": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "termino": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    }
+                                }
+                            ],
                             "numero de educacion": "1",
-                            "0": {
-                                "titulo": "Administración de Empresas",
-                                "institucion": "Sweetwater Evening High School"
-                            }
-                        },
-                        "ocupacion": "Administración de Empresas",
-                        "gabinete": ""
-                    }
+                            "educacion": [
+                                {
+                                    "titulo": "Administración de Empresas",
+                                    "institucion": "Sweetwater Evening High School"
+                                }
+                            ],
+                            "ocupacion": "Administración de Empresas",
+                            "gabinete": ""
+                        }
+                    ]
                 },
                 {
                     "nombre": "Milton Castellanos Everardo",
@@ -1004,58 +1022,60 @@
                         "img": "data:image/png;base64,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",
                         "desde": ""
                     },
-                    "detalles": {
-                        "experiencia publica": {
+                    "detalles": [
+                        {
                             "numero de experiencia": "1",
-                            "0": {
-                                "cargo": "Presidente de la Cámara de Diputados de México",
-                                "por": "",
-                                "inicio mandato": {
-                                    "ano": "1951",
-                                    "fecha": "1 de octubre de 1951"
-                                },
-                                "termino mandato": {
-                                    "ano": "1951",
-                                    "fecha": "31 de octubre de 1951"
-                                },
-                                "predecesor": "Teófilo Borunda Ortiz",
-                                "sucesor": "Rafael Corrales Ayala"
-                            }
-                        },
-                        "nacimiento": {
-                            "fecha": "23 de marzo de 1920",
-                            "ano": "1920"
-                        },
-                        "muerte": {
-                            "fecha": "0 de octubre de 2011",
-                            "ano": "2011",
-                            "lugar": "Mexicali, Baja California"
-                        },
-                        "lugar de nacimiento": "Copainalá, Chiapas, México",
-                        "ex partidos": {
-                            "numero de ex partidos": "0",
-                            "0": {
-                                "partido": "",
-                                "inicio": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "termino": {
-                                    "ano": "",
-                                    "fecha": ""
+                            "experiencia publica": [
+                                {
+                                    "cargo": "Presidente de la Cámara de Diputados de México",
+                                    "por": "",
+                                    "inicio mandato": {
+                                        "ano": "1951",
+                                        "fecha": "1 de octubre de 1951"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1951",
+                                        "fecha": "31 de octubre de 1951"
+                                    },
+                                    "predecesor": "Teófilo Borunda Ortiz",
+                                    "sucesor": "Rafael Corrales Ayala"
                                 }
-                            }
-                        },
-                        "educacion": {
+                            ],
+                            "nacimiento": {
+                                "fecha": "23 de marzo de 1920",
+                                "ano": "1920"
+                            },
+                            "muerte": {
+                                "fecha": "0 de octubre de 2011",
+                                "ano": "2011",
+                                "lugar": "Mexicali, Baja California"
+                            },
+                            "lugar de nacimiento": "Copainalá, Chiapas, México",
+                            "numero de ex partidos": "0",
+                            "ex partidos": [
+                                {
+                                    "partido": "",
+                                    "inicio": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "termino": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    }
+                                }
+                            ],
                             "numero de educacion": "1",
-                            "0": {
-                                "titulo": "Licenciatura en derecho",
-                                "institucion": "UNAM"
-                            }
-                        },
-                        "ocupacion": "Político, abogado",
-                        "gabinete": ""
-                    }
+                            "educacion": [
+                                {
+                                    "titulo": "Licenciatura en derecho",
+                                    "institucion": "UNAM"
+                                }
+                            ],
+                            "ocupacion": "Político, abogado",
+                            "gabinete": ""
+                        }
+                    ]
                 },
                 {
                     "nombre": "Raúl Sánchez Díaz Martell",
@@ -1085,58 +1105,60 @@
                         "img": "data:image/png;base64,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",
                         "desde": ""
                     },
-                    "detalles": {
-                        "experiencia publica": {
+                    "detalles": [
+                        {
                             "numero de experiencia": "0",
-                            "0": {
-                                "cargo": "",
-                                "por": "",
-                                "inicio mandato": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "termino mandato": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "predecesor": "",
-                                "sucesor": ""
-                            }
-                        },
-                        "nacimiento": {
-                            "fecha": "15 de abril de 1915",
-                            "ano": "1915"
-                        },
-                        "muerte": {
-                            "fecha": "17 de abril de 2011",
-                            "ano": "2011",
-                            "lugar": "Mexicali, Baja California"
-                        },
-                        "lugar de nacimiento": "Guadalajara, Jalisco",
-                        "ex partidos": {
-                            "numero de ex partidos": "0",
-                            "0": {
-                                "partido": "",
-                                "inicio": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "termino": {
-                                    "ano": "",
-                                    "fecha": ""
+                            "experiencia publica": [
+                                {
+                                    "cargo": "",
+                                    "por": "",
+                                    "inicio mandato": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "termino mandato": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "predecesor": "",
+                                    "sucesor": ""
                                 }
-                            }
-                        },
-                        "educacion": {
+                            ],
+                            "nacimiento": {
+                                "fecha": "15 de abril de 1915",
+                                "ano": "1915"
+                            },
+                            "muerte": {
+                                "fecha": "17 de abril de 2011",
+                                "ano": "2011",
+                                "lugar": "Mexicali, Baja California"
+                            },
+                            "lugar de nacimiento": "Guadalajara, Jalisco",
+                            "numero de ex partidos": "0",
+                            "ex partidos": [
+                                {
+                                    "partido": "",
+                                    "inicio": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "termino": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    }
+                                }
+                            ],
                             "numero de educacion": "1",
-                            "0": {
-                                "titulo": "Ingeniero civil",
-                                "institucion": "UNAM"
-                            }
-                        },
-                        "ocupacion": "Político",
-                        "gabinete": ""
-                    }
+                            "educacion": [
+                                {
+                                    "titulo": "Ingeniero civil",
+                                    "institucion": "UNAM"
+                                }
+                            ],
+                            "ocupacion": "Político",
+                            "gabinete": ""
+                        }
+                    ]
                 },
                 {
                     "nombre": "Gustavo Aubanel Vallejo (Interino)",
@@ -1166,100 +1188,102 @@
                         "img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAACXCAMAAAAvQTlLAAAA4VBMVEWqqan////SMCYAkj8TFRYAAAAAjzaCv5fksK7RHxEAkDrRKBw+nlraYFrt9fD89PSMjIzPDADtt7XKycnW1tbz8/MAiyyora3l5ebssbAfHx+RxqMFCQsuLy+528Wz1r7nnpt6fn6wqq5rsX9Fo2SiqKS5uLi5goCtoaCxmJe2iYfHWFOWpZqJo5FsnnzPOjFTmmjCambKS0XCX1u/cW2jxK7dwsFjnHTNQTmAo4wklEuzkI93oIQ8l1tJmGC9eHU9PT1ZWVlubm7feHTb7eJeq3JJSUqZmpoAiBzN5tWiz7GINsPFAAAGyklEQVR4nM3ce3eiRhQAcISABaxNqrI0MdnuNJikPmIerY+YbLLNc7//ByqgUcB7mQczyP1Pz8HzO3fGYQZmrlZbh99u9TTGaNVYo836k71e299cpq2vZzYpcsW2dsbl81ytzhWGn3TxXqzQpbU3rhbvtSpdy9/WhC5V6oozpvH3LeWuqI+FLoELFbsilNiFil2t0MU1bpXk6nU0kd6l3BWqxK5T7WppQs1IVLvEVGT2D7Pr34svX4RovChtMDG8OrPrl4Pp2blyWpiqsWMZFofLdu3LK7VJI8FibjmGwefSdd11r+80VTKiLRqxit8Vyuz+nZKcEW04X6lEXFHO+gpakwzGzqdKzBXK9Ktz2bCRsVGJukLZ5ZnMbkYG95ZhSHCF3exGYsoWjmPIcUWN+bccGAkePMOQ5tJ1+0pG9yfh3zDLKubS3X7xtiSzbBsWd4Xd/6IgjEy2UcVdYSc7KwYbbbehDFfYyYrAyBhmSXDp7ndx2Hjrj5h2YevhXrtDdekHohlDs7V27ZtIHD7u+zSXcMYmWLYSrj0kuqap0VxiGSMjYHxgdoVh7tNcussPIws8W2yuPbNHc+k29zg2zFGxup46NJc75Rz5AyOnFRlde2ab5tLdaz7XA/pX5HH1qC7dvuWAkUk+C3OZ6c9xz6e4uPr+gMICXeY3v/WUgpnfGFy6zt7F5rmdC3NF2flhcrvcPqsrb+SiuNr8LtaWJAMqC3d1BFysLflQtiucWDOka0Hr9PLzpd8xwBr0dMl2uX16ukZ590VV+bKpa7dgzsCS7qLfjuhjhAqX7tISFg+pHhjW1nOTbddb6pu3rMtOhsvew8gs6l3z+hEU9Zf1Che7D/1I34daGdf0z2T8lxLnzsRI9Gd0Gs0aGM3no3cLde0dHqfv291jP+1yf0393O8HyYTd5LjIMGoq1BXG84uFurIRN2Pa9Rvqyh30yYTmqjVjGNP83uzwuPJWR8Gc6qo1o6ZmcHVflys1Ztc13o7DuJHyXbWTdyaXuVpAMreje4E2473D4KqFCWPJ12Obz5Uzo16O9TTXkcXWvw59vnxhYz6ZOaDr+Tn9+avH+H983Bon8ly6jg1hE9j14p2epFxIvrrdbgamcbmweWtwD7v+sizjg+7qPr0eZ9ZDr3wuZGj9nEpsuwzviO4yOx3/LQPjc03PQdfQQl2p53CoK/yml8rgMZcLGSnWi9kirk4RFzw7XI1eO3S58PpjvnMXuMINPqd9O3Ppl1C6Brt3QXOdz9EecDmM40RxFzTij1CX9/6S/EadC1x9TDDXUf0j9VmhC7oTjTFXNhS6oDlrFVzQAPZQTdfnbILBBc+/ZLiAGUXAnK+6unzdbDcjczs2PWS9rSZfzK66Spd4vk4S+4ZKyRfbOPFhSHP9weZCx/tENH8u3xupckHjF931/LPhpfZZJV3dlSuxJjK5XdDSFnOdNE5XMfcy+6z2u4eb6C5diW8OuV3AfYgsMJfnrMJYx8rV8ZMRf+Vnv+JyAfOJ5bMv0GVsheD+L6oLeo6PzVdLdIHP5gJj5y5wfo+th8pzwU90yMPOXeADCjKC19vluZC9RMjziRLzBb9WC+bgc6byXMjzHA1+/lWaC30XAz8vLM+FPMFHnq+W147oW1vweXRprinGWo1gO3Lhb64I+L6jLFfOm75gl+04xVTI+7SSXOBcdd2QO3TlvbCF3teW48rfERDvKnROd+A6oGwIWL4ZtRIBbVwQPq+A7gfIeSu67PkMu3Ok7ENOB3WPLdd+E2kuFx3r+RIm28Wy85e6iU++i9a74ljswMW0k++eDpPrYtv5SIb0HibZxbZLmkyoCZPqyrszpiJg3b8qx5UzkeBtSZkuxlaMYfgJCukuro3bAeU/Kc/Fvgs5TtgAOmWlwOVe8h0MILOS8sWyozYFQ05ayXUJnIjJ7fuSXMwjVypyYHJcB0Ks8EZJO29VzJW7BVMMJsNlQy+pGKOh8Dwf18CViQA5ryPh/OOtuCqKMTi+FnaJ/ROTsYAWakXP11K3j9ODzIBZT8HzyFPeUR6EZQ+7F3XZEo5JL2OSbcsi593d79JKBIRtKak+gG5fy2jDdQRjOfUU9FvJZTvIMDnGCrqiyhhSVREsGBmOU8QlufhEQjYxLGGXfSmvv2dhUekcR6wejH4rvYRIihaM7j2H0+Xa18pytZFpwweHq96Q2xepncNfoYmQYMFRn0mwCpLyelZCDdirbP2vqtZLq2p9ucrW46tq/cIK1ntsV7M+ZvTjFawnGpfTqHT91SrVq11V0l3X92WvOazQ1Vv/7tpV6/gcpYdVuHptf1MO6H9D9B2eHOmIBQAAAABJRU5ErkJggg==",
                         "desde": ""
                     },
-                    "detalles": {
-                        "experiencia publica": {
+                    "detalles": [
+                        {
                             "numero de experiencia": "4",
-                            "0": {
-                                "cargo": "Senador al Congreso de la Unión",
-                                "por": "Baja California, primera fórmula",
-                                "inicio mandato": {
-                                    "ano": "1970",
-                                    "fecha": "1 de septiembre de 1970"
+                            "experiencia publica": [
+                                {
+                                    "cargo": "Senador al Congreso de la Unión",
+                                    "por": "Baja California, primera fórmula",
+                                    "inicio mandato": {
+                                        "ano": "1970",
+                                        "fecha": "1 de septiembre de 1970"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1976",
+                                        "fecha": "31 de agosto de 1976"
+                                    },
+                                    "predecesor": "Hermenegildo Cuenca Díaz",
+                                    "sucesor": "Roberto de la Madrid Romandía"
                                 },
-                                "termino mandato": {
-                                    "ano": "1976",
-                                    "fecha": "31 de agosto de 1976"
+                                {
+                                    "cargo": "Diputado al Congreso de la Unión",
+                                    "por": "Baja California, distrito 2",
+                                    "inicio mandato": {
+                                        "ano": "1967",
+                                        "fecha": "1 de septiembre de 1967"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1970",
+                                        "fecha": "31 de agosto de 1970"
+                                    },
+                                    "predecesor": "Salvador Rosas Magallón",
+                                    "sucesor": "Marco Antonio Bolaños Cacho"
                                 },
-                                "predecesor": "Hermenegildo Cuenca Díaz",
-                                "sucesor": "Roberto de la Madrid Romandía"
-                            },
-                            "1": {
-                                "cargo": "Diputado al Congreso de la Unión",
-                                "por": "Baja California, distrito 2",
-                                "inicio mandato": {
-                                    "ano": "1967",
-                                    "fecha": "1 de septiembre de 1967"
+                                {
+                                    "cargo": "Diputado al Congreso de la Unión",
+                                    "por": "Baja California, distrito 2",
+                                    "inicio mandato": {
+                                        "ano": "1961",
+                                        "fecha": "1 de septiembre de 1961"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1964",
+                                        "fecha": "31 de agosto de 1964"
+                                    },
+                                    "predecesor": "Germán Brambila Gómez",
+                                    "sucesor": "Salvador Rosas Magallón"
                                 },
-                                "termino mandato": {
-                                    "ano": "1970",
-                                    "fecha": "31 de agosto de 1970"
-                                },
-                                "predecesor": "Salvador Rosas Magallón",
-                                "sucesor": "Marco Antonio Bolaños Cacho"
-                            },
-                            "2": {
-                                "cargo": "Diputado al Congreso de la Unión",
-                                "por": "Baja California, distrito 2",
-                                "inicio mandato": {
-                                    "ano": "1961",
-                                    "fecha": "1 de septiembre de 1961"
-                                },
-                                "termino mandato": {
-                                    "ano": "1964",
-                                    "fecha": "31 de agosto de 1964"
-                                },
-                                "predecesor": "Germán Brambila Gómez",
-                                "sucesor": "Salvador Rosas Magallón"
-                            },
-                            "3": {
-                                "cargo": "Presidente municipal de Tijuana",
-                                "por": "",
-                                "inicio mandato": {
-                                    "ano": "1953",
-                                    "fecha": "1 de marzo de 1953"
-                                },
-                                "termino mandato": {
-                                    "ano": "1956",
-                                    "fecha": "31 de octubre de 1956"
-                                },
-                                "predecesor": "Cargo creado",
-                                "sucesor": "Manuel Quiros Labastida"
-                            }
-                        },
-                        "nacimiento": {
-                            "fecha": "23 de julio de 1901",
-                            "ano": "1901"
-                        },
-                        "muerte": {
-                            "fecha": "9 de diciembre de 1987",
-                            "ano": "1987",
-                            "lugar": "Mexicali, Baja California"
-                        },
-                        "lugar de nacimiento": "Guadalajara, Jalisco",
-                        "ex partidos": {
-                            "numero de ex partidos": "0",
-                            "0": {
-                                "partido": "",
-                                "inicio": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "termino": {
-                                    "ano": "",
-                                    "fecha": ""
+                                {
+                                    "cargo": "Presidente municipal de Tijuana",
+                                    "por": "",
+                                    "inicio mandato": {
+                                        "ano": "1953",
+                                        "fecha": "1 de marzo de 1953"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1956",
+                                        "fecha": "31 de octubre de 1956"
+                                    },
+                                    "predecesor": "Cargo creado",
+                                    "sucesor": "Manuel Quiros Labastida"
                                 }
-                            }
-                        },
-                        "educacion": {
+                            ],
+                            "nacimiento": {
+                                "fecha": "23 de julio de 1901",
+                                "ano": "1901"
+                            },
+                            "muerte": {
+                                "fecha": "9 de diciembre de 1987",
+                                "ano": "1987",
+                                "lugar": "Mexicali, Baja California"
+                            },
+                            "lugar de nacimiento": "Guadalajara, Jalisco",
+                            "numero de ex partidos": "0",
+                            "ex partidos": [
+                                {
+                                    "partido": "",
+                                    "inicio": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "termino": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    }
+                                }
+                            ],
                             "numero de educacion": "1",
-                            "0": {
-                                "titulo": "Médico cirujano y partero",
-                                "institucion": "Universidad de Guadalajara"
-                            }
-                        },
-                        "ocupacion": "Político, Médico",
-                        "gabinete": ""
-                    }
+                            "educacion": [
+                                {
+                                    "titulo": "Médico cirujano y partero",
+                                    "institucion": "Universidad de Guadalajara"
+                                }
+                            ],
+                            "ocupacion": "Político, Médico",
+                            "gabinete": ""
+                        }
+                    ]
                 },
                 {
                     "nombre": "Eligio Esquivel Méndez",
@@ -1289,58 +1313,60 @@
                         "img": "data:image/png;base64,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",
                         "desde": ""
                     },
-                    "detalles": {
-                        "experiencia publica": {
+                    "detalles": [
+                        {
                             "numero de experiencia": "0",
-                            "0": {
-                                "cargo": "",
-                                "por": "",
-                                "inicio mandato": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "termino mandato": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "predecesor": "",
-                                "sucesor": ""
-                            }
-                        },
-                        "nacimiento": {
-                            "fecha": "31 de octubre de 1908",
-                            "ano": "1908"
-                        },
-                        "muerte": {
-                            "fecha": "17 de diciembre de 1964",
-                            "ano": "1964",
-                            "lugar": "El Centro, California"
-                        },
-                        "lugar de nacimiento": "Mérida, Yucatán",
-                        "ex partidos": {
-                            "numero de ex partidos": "0",
-                            "0": {
-                                "partido": "",
-                                "inicio": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "termino": {
-                                    "ano": "",
-                                    "fecha": ""
+                            "experiencia publica": [
+                                {
+                                    "cargo": "",
+                                    "por": "",
+                                    "inicio mandato": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "termino mandato": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "predecesor": "",
+                                    "sucesor": ""
                                 }
-                            }
-                        },
-                        "educacion": {
+                            ],
+                            "nacimiento": {
+                                "fecha": "31 de octubre de 1908",
+                                "ano": "1908"
+                            },
+                            "muerte": {
+                                "fecha": "17 de diciembre de 1964",
+                                "ano": "1964",
+                                "lugar": "El Centro, California"
+                            },
+                            "lugar de nacimiento": "Mérida, Yucatán",
+                            "numero de ex partidos": "0",
+                            "ex partidos": [
+                                {
+                                    "partido": "",
+                                    "inicio": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "termino": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    }
+                                }
+                            ],
                             "numero de educacion": "1",
-                            "0": {
-                                "titulo": "Ingeniero civil",
-                                "institucion": "UNAM"
-                            }
-                        },
-                        "ocupacion": "Político, ingeniero civil",
-                        "gabinete": ""
-                    }
+                            "educacion": [
+                                {
+                                    "titulo": "Ingeniero civil",
+                                    "institucion": "UNAM"
+                                }
+                            ],
+                            "ocupacion": "Político, ingeniero civil",
+                            "gabinete": ""
+                        }
+                    ]
                 },
                 {
                     "nombre": "Braulio Maldonado Sández",
@@ -1370,85 +1396,87 @@
                         "img": "data:image/png;base64,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",
                         "desde": ""
                     },
-                    "detalles": {
-                        "experiencia publica": {
+                    "detalles": [
+                        {
                             "numero de experiencia": "3",
-                            "0": {
-                                "cargo": "Diputado del Congreso de la Unión",
-                                "por": "Baja California, territorio Norte",
-                                "inicio mandato": {
-                                    "ano": "1952",
-                                    "fecha": "1 de septiembre de 1952"
+                            "experiencia publica": [
+                                {
+                                    "cargo": "Diputado del Congreso de la Unión",
+                                    "por": "Baja California, territorio Norte",
+                                    "inicio mandato": {
+                                        "ano": "1952",
+                                        "fecha": "1 de septiembre de 1952"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1953",
+                                        "fecha": "30 de noviembre de 1953"
+                                    },
+                                    "predecesor": "Ricardo Alzalde Arellano",
+                                    "sucesor": "Francisco Benítez Méndez"
                                 },
-                                "termino mandato": {
-                                    "ano": "1953",
-                                    "fecha": "30 de noviembre de 1953"
+                                {
+                                    "cargo": "Diputado del Congreso de la Unión",
+                                    "por": "Baja California, territorio Norte",
+                                    "inicio mandato": {
+                                        "ano": "1946",
+                                        "fecha": "1 de septiembre de 1946"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1949",
+                                        "fecha": "31 de agosto de 1949"
+                                    },
+                                    "predecesor": "",
+                                    "sucesor": "Ricardo Alzalde Arellano"
                                 },
-                                "predecesor": "Ricardo Alzalde Arellano",
-                                "sucesor": "Francisco Benítez Méndez"
-                            },
-                            "1": {
-                                "cargo": "Diputado del Congreso de la Unión",
-                                "por": "Baja California, territorio Norte",
-                                "inicio mandato": {
-                                    "ano": "1946",
-                                    "fecha": "1 de septiembre de 1946"
-                                },
-                                "termino mandato": {
-                                    "ano": "1949",
-                                    "fecha": "31 de agosto de 1949"
-                                },
-                                "predecesor": "",
-                                "sucesor": "Ricardo Alzalde Arellano"
-                            },
-                            "2": {
-                                "cargo": "Presidente de la Cámara de Diputados de México",
-                                "por": "",
-                                "inicio mandato": {
-                                    "ano": "1946",
-                                    "fecha": "1 de septiembre de 1946"
-                                },
-                                "termino mandato": {
-                                    "ano": "1949",
-                                    "fecha": "31 de agosto de 1949"
-                                },
-                                "predecesor": "Raúl López Sánchez",
-                                "sucesor": "Teófilo Borunda"
-                            }
-                        },
-                        "nacimiento": {
-                            "fecha": "1903",
-                            "ano": "1903"
-                        },
-                        "muerte": {
-                            "fecha": "1990",
-                            "ano": "1990"
-                        },
-                        "lugar de nacimiento": "San José del Cabo, México",
-                        "ex partidos": {
-                            "numero de ex partidos": "0",
-                            "0": {
-                                "partido": "",
-                                "inicio": {
-                                    "ano": "",
-                                    "fecha": ""
-                                },
-                                "termino": {
-                                    "ano": "",
-                                    "fecha": ""
+                                {
+                                    "cargo": "Presidente de la Cámara de Diputados de México",
+                                    "por": "",
+                                    "inicio mandato": {
+                                        "ano": "1946",
+                                        "fecha": "1 de septiembre de 1946"
+                                    },
+                                    "termino mandato": {
+                                        "ano": "1949",
+                                        "fecha": "31 de agosto de 1949"
+                                    },
+                                    "predecesor": "Raúl López Sánchez",
+                                    "sucesor": "Teófilo Borunda"
                                 }
-                            }
-                        },
-                        "educacion": {
+                            ],
+                            "nacimiento": {
+                                "fecha": "1903",
+                                "ano": "1903"
+                            },
+                            "muerte": {
+                                "fecha": "1990",
+                                "ano": "1990"
+                            },
+                            "lugar de nacimiento": "San José del Cabo, México",
+                            "numero de ex partidos": "0",
+                            "ex partidos": [
+                                {
+                                    "partido": "",
+                                    "inicio": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    },
+                                    "termino": {
+                                        "ano": "",
+                                        "fecha": ""
+                                    }
+                                }
+                            ],
                             "numero de educacion": "1",
-                            "0": {
-                                "titulo": "Licenciado en derecho",
-                                "institucion": "UNAM"
-                            }
-                        },
-                        "ocupacion": "Político",
-                        "gabinete": ""
-                    }
+                            "educacion": [
+                                {
+                                    "titulo": "Licenciado en derecho",
+                                    "institucion": "UNAM"
+                                }
+                            ],
+                            "ocupacion": "Político",
+                            "gabinete": ""
+                        }
+                    ]
                 }
             ]
         },

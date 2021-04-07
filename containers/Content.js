@@ -81,6 +81,7 @@ export default class Content extends Component {
                     columnWrapperStyle={{justifyContent: 'space-between'}}
                     data={ex}
                     renderItem={renderItem}
+                    listKey="someUniqueString"
                     keyExtractor={(item, index) => index.toString()}
                 />
             </SafeAreaView>
