@@ -1,6 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native';
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, SafeAreaView, ScrollView, StatusBar, Image, FlatList, TouchableOpacity } from 'react-native';
+import ProfileHeader from './ProfileHeader';
 
 const press = () => {
     return (
@@ -17,60 +18,48 @@ export default class Profile extends Component {
           show: true
         };
     }
+    /*
+    <View>
+                    <Text>{item.ocupacion}</Text>
+                </View>
+    */
+
+    /*                 MODIFICAR JSON PARA COMPATIBILIDAD CON FLATLIST CON EXGOBERNADORES, SOLO BONILLA SE ENCUENTRA FUNCIONAL
+    */
     render() {
-        const { data } = this.props.route.params;
-        return (
-            <View style={styles.background}>
+        dang = ({ item }) => {
+            return (
                 <View>
-                    <Text style={styles.title}>Gobernador</Text>
-                </View>
-                <View>
-                    <Image 
-                        style={styles.imagePartido}
-                        source= {{uri: data.partido.img}}
-                    />
-                    <Text style={styles.text}>({data["inicio mandato"].fecha}-{data["termino mandato"].fecha})</Text>
-                    <Image 
-                        style={styles.image}
-                        source= {{uri: data.img}}
-                    />
-                    <Text style={styles.text}>{data.nombre}</Text>
-                </View>
-                <View style={styles.container2}>
-                    <View style={styles.contained2}>
-                        <TouchableOpacity>
-                            <Text style={styles.subtitle3}>Predecesor</Text>
-                            <Image 
-                                style={styles.image2}
-                                source= {{uri: data["partido predecesor"].img}}
-                            />
-                            <Text style={styles.text}>{data.predecesor}</Text>
+                    <View>
+                        <TouchableOpacity onPress={() => this.setState({ show: !this.state.show })}>
+                            <Text style={styles.subtitle2}>Mostrar detalles</Text>
                         </TouchableOpacity>
                     </View>
-                    <View style={styles.contained2}>
-                        {data["partido sucesor"] ? (
-                            <TouchableOpacity>
-                                <Text style={styles.subtitle3}>Sucesor</Text>
-                                <Image 
-                                    style={styles.image2}
-                                    source= {{uri: data["partido sucesor"].img}}
-                                />
-                                <Text style={styles.text}>{data.sucesor}</Text>
-                            </TouchableOpacity>
-                        ) : null }
-                    </View>
+                    {this.state.show ? (
+                        <View>
+                            <Text>Sup, dude</Text>
+                        </View>
+                    ) : null }
                 </View>
-                <View>
-                    <TouchableOpacity onPress={() => this.setState({ show: !this.state.show })}>
-                        <Text style={styles.subtitle2}>Mostrar detalles</Text>
-                    </TouchableOpacity>
-                </View>
-                {this.state.show ? (
-                    <View>
-                        <Text>Sup, dude</Text>
-                    </View>
-                ) : null }
-            </View>
+            );
+        }
+        const { data } = this.props.route.params;
+        return (
+            <SafeAreaView style={styles.container}>
+                <FlatList
+                    ListHeaderComponent={
+                        <>
+                            <ProfileHeader data={data}/>
+                        </>
+                    }
+                    style={styles.scrollView}
+                    numColumns='2'
+                    columnWrapperStyle={{justifyContent: 'space-between'}}
+                    data={data.detalles}
+                    renderItem={dang}
+                    keyExtractor={(item, index) => index.toString()}
+                />
+        </SafeAreaView>
         );
     }
 }

@@ -39,10 +39,11 @@
                 "img": "data:image/png;base64,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",
                 "desde": ""
             },
-            "detalles": {
-                "experiencia publica": {
-                    "numero de experiencia": "4",
-                    "0": {
+            "detalles": [
+                {
+                "numero de experiencia": "4",
+                "experiencia publica": [
+                    {
                         "cargo": "Senador al Congreso de la Unión de México",
                         "por": "Baja California",
                         "inicio mandato": {
@@ -56,7 +57,7 @@
                         "predecesor": "Ernesto Ruffo Appel",
                         "sucesor": "Gerardo Novelo Osuna"
                     },
-                    "1": {
+                    {
                         "cargo": "Diputado al Congreso de la Unión de México",
                         "por": "Plurinominal",
                         "inicio mandato": {
@@ -70,7 +71,7 @@
                         "predecesor": "",
                         "sucesor": "Héctor Irineo Mares Cossío"
                     },
-                    "2": {
+                    {
                         "cargo": "Presidente de la Junta Directiva del Otay Water District",
                         "por": "",
                         "inicio mandato": {
@@ -84,7 +85,7 @@
                         "predecesor": "",
                         "sucesor": "Mitch Thompson"
                     },
-                    "3": {
+                    {
                         "cargo": "Miembro de la Junta Directiva del Otay Water District",
                         "por": "la división 2",
                         "inicio mandato": {
@@ -98,7 +99,7 @@
                         "predecesor": "",
                         "sucesor": "Mitch Thompson"
                     }
-                },
+                ],
                 "nacimiento": {
                     "fecha": "9 de junio 1950",
                     "ano": "1950"
@@ -142,7 +143,8 @@
                 },
                 "ocupacion": "Empresario y político",
                 "gabinete": ""
-            },
+            }
+            ],
             "numero de ex gobernadores": "14",
             "desde": "1953",
             "ex gobernadores": [
@@ -175,9 +177,9 @@
                         "desde": ""
                     },
                     "detalles": {
-                        "experiencia publica": {
-                            "numero de experiencia": "2",
-                            "0": {
+                        "numero de experiencia": "2",
+                        "experiencia publica": [
+                            {
                                 "cargo": "Diputado del Congreso de la Unión",
                                 "por": "Plurinominal",
                                 "inicio mandato": {
@@ -191,7 +193,7 @@
                                 "predecesor": "",
                                 "sucesor": ""
                             },
-                            "1": {
+                            {
                                 "cargo": "Presidente municipal de Tijuana",
                                 "por": "",
                                 "inicio mandato": {
@@ -205,7 +207,7 @@
                                 "predecesor": "José Guadalupe Osuna Millán",
                                 "sucesor": "Jesús González Reyes"
                             }
-                        },
+                        ],
                         "nacimiento": {
                             "fecha": "22 de mayo 1955",
                             "ano": "1955"
@@ -265,9 +267,9 @@
                         "desde": ""
                     },
                     "detalles": {
-                        "experiencia publica": {
-                            "numero de experiencia": "2",
-                            "0": {
+                        "numero de experiencia": "2",
+                        "experiencia publica": [
+                            {
                                 "cargo": "Diputado del Congreso de la Unión",
                                 "por": "Distrito 5 de Baja California",
                                 "inicio mandato": {
@@ -281,7 +283,7 @@
                                 "predecesor": "Francisco Blake Mora",
                                 "sucesor": "Antonio Valladolid Rodríguez"
                             },
-                            "1": {
+                            {
                                 "cargo": "Presidente municipal de Tijuana",
                                 "por": "",
                                 "inicio mandato": {
@@ -295,7 +297,7 @@
                                 "predecesor": "Héctor Osuna",
                                 "sucesor": "Francisco Vega de Lamadrid"
                             }
-                        },
+                        ],
                         "nacimiento": {
                             "fecha": "15 de diciembre de 1955",
                             "ano": "1955"

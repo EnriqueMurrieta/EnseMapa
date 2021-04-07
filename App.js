@@ -5,6 +5,7 @@ import Profile from './containers/Profile';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Header from './containers/Header';
+import ProfileHeader from './containers/ProfileHeader';
 
 const Stack = createStackNavigator();
 
@@ -25,6 +26,10 @@ export default function App() {
         <Stack.Screen
           name="Header"
           component={Header}
+        />
+        <Stack.Screen
+          name="ProfileHeader"
+          component={ProfileHeader}
         />
       </Stack.Navigator>
     </NavigationContainer>
