@@ -30,8 +30,8 @@ export default class Profile extends Component {
     /*                 MODIFICAR JSON PARA COMPATIBILIDAD CON FLATLIST CON EXGOBERNADORES, SOLO BONILLA SE ENCUENTRA FUNCIONAL
     */
     render() {
-        dang = ({ item }) => {
-            fleco = ({ item }) => {
+        detalles = ({ item }) => {
+            experiencia = ({ item }) => {
                 return (
                     <View>
                         <Text>{item.cargo}</Text>
@@ -42,6 +42,13 @@ export default class Profile extends Component {
                 return (
                     <View>
                         <Text>{item.partido}</Text>
+                    </View>
+                );
+            }
+            educacion = ({ item }) => {
+                return (
+                    <View>
+                        <Text>{item.titulo}</Text>
                     </View>
                 );
             }
@@ -64,9 +71,9 @@ export default class Profile extends Component {
                                         /*numColumns='2'
                                         columnWrapperStyle={{justifyContent: 'space-between'}}*/
                                         data={item["experiencia publica"]}
-                                        renderItem={fleco}
+                                        renderItem={experiencia}
                                         keyExtractor={(item, index) => index.toString()}
-                                        listKey="anotherUniqueString"
+                                        listKey="ProfileExpKey"
                                     />
                                 </SafeAreaView>
                             : null }
@@ -84,15 +91,31 @@ export default class Profile extends Component {
                                                 columnWrapperStyle={{justifyContent: 'space-between'}}*/
                                                 data={item["ex partidos"]}
                                                 renderItem={partidos}
+                                                listKey="ProfilePartidosKey"
                                                 keyExtractor={(item, index) => index.toString()}
                                             />
                                         </SafeAreaView>
                                     : null }
                                 </View>
                             : null }
-                            <TouchableOpacity>
-                                <Text style={styles.text}>Educacion</Text>
-                            </TouchableOpacity>
+                            <View>
+                                <TouchableOpacity onPress={() => this.setState({ showEdu: !this.state.showEdu })}>
+                                    <Text style={styles.text}>Educacion</Text>
+                                </TouchableOpacity>
+                                {this.state.showEdu ? 
+                                    <SafeAreaView style={styles.container}>
+                                        <FlatList
+                                            style={styles.scrollView}
+                                            /*numColumns='2'
+                                            columnWrapperStyle={{justifyContent: 'space-between'}}*/
+                                            data={item.educacion}
+                                            renderItem={educacion}
+                                            listKey="ProfileEduKey"
+                                            keyExtractor={(item, index) => index.toString()}
+                                        />
+                                    </SafeAreaView>
+                                : null }
+                            </View>
                         </View>
                     ) : null }
                 </View>
@@ -111,7 +134,8 @@ export default class Profile extends Component {
                     /*numColumns='2'
                     columnWrapperStyle={{justifyContent: 'space-between'}}*/
                     data={data.detalles}
-                    renderItem={dang}
+                    listKey="ProfileMainKey"
+                    renderItem={detalles}
                     keyExtractor={(item, index) => index.toString()}
                 />
             </SafeAreaView>
