@@ -1,6 +1,6 @@
 import { NavigationContainer } from '@react-navigation/native';
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, SafeAreaView, ScrollView, StatusBar, Image, FlatList, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, SafeAreaView, ScrollView, StatusBar, Image, FlatList, TouchableOpacity, Button } from 'react-native';
 import ProfileHeader from './ProfileHeader';
 import { AntDesign } from '@expo/vector-icons';
 
@@ -28,7 +28,10 @@ export default class Profile extends Component {
                 </View>
     */
 
-    /*                 MODIFICAR JSON PARA COMPATIBILIDAD CON FLATLIST CON EXGOBERNADORES, SOLO BONILLA SE ENCUENTRA FUNCIONAL
+    /* 
+    <View style={styles.icon}>
+                                    <AntDesign name="bars" size={20} color="black" />
+                                </View>
     */
     render() {
         detalles = ({ item }) => {
@@ -66,7 +69,10 @@ export default class Profile extends Component {
             educacion = ({ item }) => {
                 return (
                     <View>
-                        <Text>{item.titulo}</Text>
+                        <View style={styles.detailsContentEx}>
+                            <Text style={{fontWeight: "bold"}}>{item.titulo}</Text>
+                            <Text>{item.institucion}</Text>
+                        </View>
                     </View>
                 );
             }
@@ -74,16 +80,15 @@ export default class Profile extends Component {
                 <View>
                     <View>
                         <TouchableOpacity onPress={() => this.setState({ showDetails: !this.state.showDetails })}>
-                            <Text style={styles.subtitle3}>Mostrar detalles</Text>
+                            <View style={styles.subtitle3}>
+                                <Button title="Mostrar detalles" onPress={() => this.setState({ showDetails: !this.state.showDetails })}/>
+                            </View>
                         </TouchableOpacity>
                     </View>
                     {this.state.showDetails ? (
                         <View>
                             <TouchableOpacity style={styles.detailsList} onPress={() => this.setState({ showExp: !this.state.showExp })}>
-                                <View style={styles.icon}>
-                                    <AntDesign name="bars" size={20} color="black" />
-                                </View>
-                                <Text style={styles.text}>Experiencia publica</Text>
+                                <Button title="Experiencia publica" onPress={() => this.setState({ showExp: !this.state.showExp })}/>
                             </TouchableOpacity>
                             {this.state.showExp ? 
                                 <SafeAreaView style={styles.container}>
@@ -101,10 +106,7 @@ export default class Profile extends Component {
                             {item["numero de ex partidos"] != 0 ? 
                                 <View>
                                     <TouchableOpacity style={styles.detailsList} onPress={() => this.setState({ showPartidos: !this.state.showPartidos })}>
-                                        <View style={styles.icon}>
-                                            <AntDesign name="bars" size={20} color="black" />
-                                        </View>
-                                        <Text style={styles.text}>Ex partidos</Text>
+                                        <Button title="Ex partidos" onPress={() => this.setState({ showPartidos: !this.state.showPartidos })}/>
                                     </TouchableOpacity>
                                     {this.state.showPartidos ? 
                                         <SafeAreaView style={styles.container}>
@@ -123,10 +125,7 @@ export default class Profile extends Component {
                             : null }
                             <View>
                                 <TouchableOpacity style={styles.detailsList} onPress={() => this.setState({ showEdu: !this.state.showEdu })}>
-                                    <View style={styles.icon}>
-                                        <AntDesign name="bars" size={20} color="black" />
-                                    </View>
-                                    <Text style={styles.text}>Educacion</Text>
+                                    <Text title="Educacion" onPress={() => this.setState({ showEdu: !this.state.showEdu })}/>
                                 </TouchableOpacity>
                                 {this.state.showEdu ? 
                                     <SafeAreaView style={styles.container}>
@@ -143,6 +142,7 @@ export default class Profile extends Component {
                                 : null }
                             </View>
                             <Text style={styles.text}>Nacimiento</Text>
+                            <Text style={styles.text}>{item.nacimiento.fecha}</Text>
                         </View>
                     ) : null }
                 </View>

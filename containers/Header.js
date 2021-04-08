@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
-import { StyleSheet, StatusBar, Text, View, Image, TouchableOpacity } from 'react-native';
+import { StyleSheet, StatusBar, Text, View, Image, TouchableOpacity, Button } from 'react-native';
 import db from '../src/data.json';
+
+/*
+<Text style={styles.text}>{db["baja california"].gobernador.nombre}</Text>
+*/
+
 
 export default class Header extends Component {
     render() {
@@ -22,12 +27,12 @@ export default class Header extends Component {
                         source= {require('../images/bc/morena.png')}
                     />
                     <Text style={styles.text}>({db['baja california'].gobernador["inicio mandato"].ano}-{db['baja california'].gobernador["termino mandato"].ano})</Text>
-                    <TouchableOpacity onPress={() => this.props.navigation.navigate('Profile', { data: info })}>
+                    <TouchableOpacity onPress={() => this.props.navigation.navigate('Profile', { data: info })}>  
                     <Image 
                         style={styles.image}
                         source= {require('../images/bc/JaimeBonilla.png')}
                     />
-                    <Text style={styles.text}>{db["baja california"].gobernador.nombre}</Text>
+                    <Button title={db["baja california"].gobernador.nombre} onPress={() => this.props.navigation.navigate('Profile', { data: info })}/>
                     </TouchableOpacity>
                 </View>
                 <View>
@@ -75,6 +80,15 @@ const styles = StyleSheet.create({
         width: '100%',
         marginHorizontal: 5,
     },
+    button: {
+        alignItems: 'center',
+        justifyContent: 'center',
+        paddingVertical: 12,
+        paddingHorizontal: 32,
+        borderRadius: 4,
+        elevation: 3,
+        backgroundColor: 'gray',
+      },
     title: {
         alignSelf: 'center',
         marginTop: 20,

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, SafeAreaView, ScrollView, StatusBar, Image, FlatList, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, SafeAreaView, ScrollView, StatusBar, Image, FlatList, TouchableOpacity, Button } from 'react-native';
 import db from '../src/data.json';
 import Header from './Header';
 
@@ -28,7 +28,7 @@ export default class Content extends Component {
                                 style={styles.image2}
                                 source= {{uri: item.img}} 
                             />
-                            <Text style={styles.text}>{item.nombre}</Text>
+                            <Button title={item.nombre} onPress={() => this.props.navigation.navigate('Profile', { data: item })}/>
                         </TouchableOpacity>
                     </View>
                 );
@@ -45,7 +45,7 @@ export default class Content extends Component {
                                 style={styles.image2}
                                 source= {{uri: item.img}} 
                             />
-                            <Text style={styles.text}>{item.nombre}</Text>
+                            <Button title={item.nombre} onPress={() => this.props.navigation.navigate('Profile', { data: item })}/>
                         </TouchableOpacity>
                     </View>
                 );
@@ -62,7 +62,7 @@ export default class Content extends Component {
                                 style={styles.image2}
                                 source= {{uri: item.img}} 
                             />
-                            <Text style={styles.text}>{item.nombre}</Text>
+                            <Button title={item.nombre} onPress={() => this.props.navigation.navigate('Profile', { data: item })}/>
                         </TouchableOpacity>
                     </View>
                 );
