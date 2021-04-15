@@ -125,7 +125,7 @@ export default class Profile extends Component {
                             : null }
                             <View>
                                 <TouchableOpacity style={styles.detailsList} onPress={() => this.setState({ showEdu: !this.state.showEdu })}>
-                                    <Text title="Educacion" onPress={() => this.setState({ showEdu: !this.state.showEdu })}/>
+                                    <Button title="Educacion" onPress={() => this.setState({ showEdu: !this.state.showEdu })}/>
                                 </TouchableOpacity>
                                 {this.state.showEdu ? 
                                     <SafeAreaView style={styles.container}>
